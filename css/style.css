@@ -30,35 +30,31 @@ p {
 	/*padding-left: 15px;*/
 	/*padding-right: 15px;*/
 	position: relative;
- }
- .container:before,
- .container:after {
+}
+.container:before,
+.container:after {
 	content: " ";
 	display: table;
- }
- .container:after {
+}
+.container:after {
 	clear: both;
- }
- .one-half, .one-third, .one-fourth {
- 	width:96%;
+}
+.one-half, .one-third, .one-fourth {
+ 	width: 96%;
  	float:left;
  	position:relative;
  	min-height: 1px;
- 	margin:0 2% 20px;
- }
+ 	/*margin:0 2% 20px;*/
+}
+
 /* HEADER */
 nav .left {
- 	width: 50%;
  	float: left;
  	margin: 0 0 0 0;
 }
 nav .right {
- 	width: 50%;
  	float: right;
  	margin: 0 0 0 0;
-}
-header nav {
-	padding: 4em 0;
 }
 
 header .logo-ay img {
@@ -70,11 +66,12 @@ header nav ul {
 	float: right;
 	margin: 0;
 	text-align: right;
-	-webkit-padding-start: none;
+	-webkit-padding-start: 0;
 }
 header nav ul > li {
-	list-style-type: none;
 	display: inline-block;
+	font-size: .88em;
+	list-style-type: none;
 	margin: 0 0px;
 }
 header span {
@@ -93,38 +90,97 @@ header nav ul > li > span > a {
 }
 
 /* MAIN */
-.one-half ul {
-	-webkit-padding-start: none;
+main div ul {
+	-webkit-padding-start: 0;
+}
+main ul {
+	border-top: 5px solid #000000;
 }
 /* MEDIA QUERIES */
 /* MOBILES */
 @media (min-width: 320px) {
-
+	header nav {
+		padding: 3em 0;
+	}
+	nav .left {
+		width: auto;
+		padding: 0 17%;
+	}
+	nav .right {
+		width: auto;
+		padding: 2em 4.35em;
+	}
 }
 
 /* TABLETS */
 @media (min-width: 768px) {
-	
+	.container {
+		width: 90%;
+	}
+	nav .left {
+		width: 50%;
+		padding: 0 0;
+	}
+	nav .right {
+		width: 50%;
+		padding: 0 0;
+	}
+	header nav {
+		padding: 4em 0;
+	}
 }
 
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 992px) {
 	.container {
-		width:;
+		width: 80%;
+	}
+	nav .left {
+		width: 50%;
+		padding: 0 0;
+	}
+	nav .right {
+		width: 50%;
+		padding: 0 0;
+	}
+	header nav {
+		padding: 4em 0;
 	}
 }
 
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 1200px) {
 	.container {
-		width:;
+		width: 80%;
+	}
+	nav .left {
+		width: 50%;
+		padding: 0 0;
+	}
+	nav .right {
+		width: 50%;
+		padding: 0 0;
+	}
+	header nav {
+		padding: 4em 0;
 	}
 }
 
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 1440px) {
 	.container {
-		width: 960px;
+		width: 67%;
+	}
+	nav .left {
+		width: 50%;
+		padding: 0 0;
+	}
+	nav .right {
+		width: 50%;
+		padding: 0 0;
+	}
+	header nav {
+		padding: 4em 0;
 	}
 
 }
