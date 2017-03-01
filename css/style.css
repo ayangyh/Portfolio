@@ -180,9 +180,32 @@ main ul {
 		padding: 0 0;
 	}
 	header nav {
-		padding: 4em 0;
+		padding: 4.75em 0 12.5em 0;
 	}
-
+	main .one-half {
+		width: 30%;
+		padding-bottom: 290px;
+		margin-top: 0;
+		margin-bottom: 12em;
+	}
+	main h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 4em;
+		padding-bottom: .5em;
+	}
+	main p {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: .5em;
+		padding-bottom: 4.5em;
+	}
+	main h5 {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top:4.5em;
+		padding-bottom: 7em;
+	}
 }
 
 
