@@ -96,6 +96,13 @@ main div ul {
 main ul {
 	border-top: 5px solid #000000;
 }
+
+/* FOOTER */
+footer .container {
+	border-top: 1px solid #000000;
+
+}	
+
 /* MEDIA QUERIES */
 /* MOBILES */
 @media (min-width: 320px) {
@@ -170,12 +177,18 @@ main ul {
 		padding-top:4.5em;
 		padding-bottom: 7em;
 	}
+	footer h3 {
+		margin-top: 3em;
+	}
+	footer p {
+		width: 50%;
+	}
 }
 
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 1200px) {
 	.container {
-		width: 80%;
+		width: 50%;
 	}
 	nav .left {
 		width: 50%;
