@@ -5,13 +5,14 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1">
  	<meta charset="UTF-8">
  	<title>ANGELA YANG</title>
+<!--  	<link rel="shortcut icon" href="flavicon.ico" type="image/ay.ico"> -->
 
 	<!-- Typekit Fonts -->
 	<script src="https://use.typekit.net/zua1vai.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 	<!-- CSS -->
-	 <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/normalize.css">
  	<link rel="stylesheet" href="css/style.css">
 
  </head>
@@ -24,9 +25,9 @@
  			</div>
  			<div class="right">
  				<ul>
- 					<li><a href="about.html">about</a></li>
- 					<li><span><a href="resume.html">resume</a></span></li>
- 					<li><a href="contact.html">contact</a></li>
+ 					<li><span><a href="about.html">about</a></span></li>
+<!--  					<li><span><a href="resume.html">resume</a></span></li> -->
+ 					<li><a href="#footer">contact</a></li>
  				</ul>
  			</div>
  		</nav>
@@ -35,44 +36,66 @@
 
  	<main role="main">
 
- 	<!-- Projects -->
- 		<section class="project">
+ 	<!-- Case Studies -->
+ 		<section class="casestudies">
  			<div class="container">
- 				<ul class="one-half">
+ 			<div class="case-one" id="case1">
+ 				<div class="description left four-column">
  					<!-- <hr> -->
- 					<div class="project-info">
+ 					<!-- <div class="project-info"> -->
  						<h2>Strada</h2>
  						<p>A platform for encouraging connections in the public art community.</p>
- 						<h5>View case study ></h5>
- 					</div>
- 				</ul>
+ 						<div class="cta"><a href="case1.html">View case study ></a></div>
+ 					<!-- </div> -->
+ 				</div>
+ 				<div class="image right eight-column"><a href="case1.html"><img src="images/strada-home.png" alt="Case Study 1: Strada"/></a>
+ 				</div>
  			</div>
-  			<div class="container">
- 				<ul class="one-half">
+  			<div class="case-two" id="case2">
+ 				<div class="description left four-column">
  					<!-- <hr> -->
- 					<div class="project-info">
+<!--  					<div class="project-info"> -->
  						<h2>Stoa</h2>
  						<p>A cloud storage solution helping power users to a simpler digital life.</p>
- 						<h5>View case study ></h5>
- 					</div>
- 				</ul>
+ 						<div class="cta"><a href="case2.html">View case study ></a></div>
+ 				</div>
+ 				<div class="image right eight-column"><a href="case2.html"><img src="images/stoa-home.png" alt="Case Study 2: Stoa"/></a>
+ 				</div>
+ 			</div>
  			</div>
  		</section>
  	</main>
 
  	<!-- Footer -->
- 	<footer>
+ 	<footer id="footer">
  		<section class="container">
- 			<div class="one-half">
+ 			<div class="left">
  				<h3>ABOUT ANGELA</h3>
- 				<p>I am a Product Designer driven by compassion and curiosity. My work is communicated through experiences in interior design, industrial design and print. And now with a passion in the realm of digital design, I fully believe in design’s power to solve the hardest problem around us. </p>
+ 				<p>I am a Product Designer driven by compassion and curiosity. My work is communicated through experiences in interior design, industrial design and print. And now with a passion in the digital world, I fully believe in design’s power to solve the hardest problem around us. </p>
  				<h5>Read more of my story ></h5>
  			</div>
- 			<div class="one-half">
- 				<h3>CONTACT</h3>
+ 			<div class="right">
+ 				<h4>Let's design some great things together.</h4>
  				<p>angelayangyh@gmail.com</p>
  			</div>
  		</section>
  	</footer>
+ 	<script>
+ 	$(document).ready(function(){
+
+  var nb = $(".navbar");
+  var tall = $(window).height();
+  var nbheight = $(".navbar").height();
+  var stick = tall - nbheight;
+
+  $(window).scroll(function() {
+    if( $(this).scrollTop() > stick -50){
+      nb.addClass("navbar-scrolled");
+    }
+    else {
+      nb.removeClass("navbar-scrolled");
+    }
+  });
+ 	</script>
  </body>
  </html>

@@ -17,9 +17,13 @@ h3 {
 	font-size: 20px;
 	font-weight: lighter;
 }
-p {
+h4 {
 	font-size: 18px;
-	line-height: 20px;
+	font-weight: lighter;
+}
+p {
+	font-size: 16px;
+	line-height: 18px;
 	font-weight: normal;
 }
 
@@ -39,7 +43,7 @@ p {
 .container:after {
 	clear: both;
 }
-.one-half, .one-third, .one-fourth {
+.eight-column .six-column .four-column {
  	width: 96%;
  	float:left;
  	position:relative;
@@ -75,7 +79,7 @@ header nav ul > li {
 	margin: 0 0px;
 }
 header span {
-	border-left: 1px solid #000000;
+	/*border-left: 1px solid #000000;*/
 	border-right: 1px solid #000000;
 	margin: 0 10px;
 	padding: 0 10px;
@@ -93,19 +97,25 @@ header nav ul > li > span > a {
 main div ul {
 	-webkit-padding-start: 0;
 }
-main ul {
-	border-top: 5px solid #000000;
-}
 
 /* FOOTER */
 footer .container {
 	border-top: 1px solid #000000;
 
+}
+footer .left {
+	float: left;
+}
+footer .right {
+	float: right;
 }	
 
 /* MEDIA QUERIES */
 /* MOBILES */
 @media (min-width: 320px) {
+	.container {
+		width: 90%;
+	}
 	header nav {
 		padding: 3em 0;
 	}
@@ -116,6 +126,25 @@ footer .container {
 	nav .right {
 		width: auto;
 		padding: 2em 4.35em;
+	}
+	main ul {
+		border-top: none;
+	}
+	footer .left {
+		float: none;
+	}
+	footer .right {
+		float: none;
+	}
+	footer h3 {
+		margin-bottom: .5em;
+	}
+	footer h4 {
+		margin-bottom: .5em;
+	}
+	footer p {
+		margin-top: 0;
+		padding-right: 2em;
 	}
 }
 
@@ -135,6 +164,17 @@ footer .container {
 	header nav {
 		padding: 4em 0;
 	}
+	main .four-column {
+		border-top: 5px solid #000000;
+	}
+	footer .left {
+		float: left;
+		width: 65%;
+	}
+	footer .right {
+		float: right;
+		width: 25%;
+	}
 }
 
 /* LAPTOPS & DESKTOPS */
@@ -151,44 +191,81 @@ footer .container {
 		padding: 0 0;
 	}
 	header nav {
-		padding: 4.75em 0 12.5em 0;
+		padding: 4.75em 0 6.5em 0;
 	}
-	main .one-half {
-		width: 30%;
-		padding-bottom: 290px;
+	.case-one {
+		list-style-type: none;
+		display: inline-block;
+	}
+	.case-two {
+		list-style-type: none;
+		display: inline-block;
+	}
+	.casestudies .left {
+		float: left;
+		width: 26%;
+		/*padding-bottom: 290px;*/
 		margin-top: 0;
-		margin-bottom: 12em;
+		margin-bottom: 15em;
 	}
-	main h2 {
+	.casestudies .right   {
+		float: right;
+		width: 72%;
+	}
+	.casestudies img {
+		width: 100%;
+		/*height: 80vh;*/
+	}
+	.casestudies h2 {
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-top: 4em;
 		padding-bottom: .5em;
 	}
-	main p {
+	.casestudies p {
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-top: .5em;
 		padding-bottom: 4.5em;
 	}
-	main h5 {
+	.casestudies .cta {
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-top:4.5em;
 		padding-bottom: 7em;
 	}
-	footer h3 {
-		margin-top: 3em;
+	.casestudies a {
+		color: #000000;
+		font-family: proxima-nova, sans-serif;
+		font-size: .85em;
+		font-weight: bold;
+		text-decoration: none;
 	}
-	footer p {
-		width: 50%;
+	.about .container {
+		margin-left: 10em;
+		margin-bottom: 10em;
+	}
+	.story p {
+		width: 65%;
+		font-size: .85em;
+		line-height: 1.5em;
+		padding-bottom: 1em;
+	}
+	footer h3 {
+		margin-top: 4em;
+	}
+	footer h4 {
+		margin-top: 4em;
 	}
 }
+
+
+
 
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 1200px) {
 	.container {
-		width: 50%;
+		width: 80%;
 	}
 	nav .left {
 		width: 50%;
@@ -198,8 +275,8 @@ footer .container {
 		width: 50%;
 		padding: 0 0;
 	}
-	header nav {
-		padding: 4.75em 0 12.5em 0;
+	footer .right p {
+		padding-right: 0;
 	}
 /*	main .one-half {
 		width: 30%;
@@ -240,9 +317,7 @@ footer .container {
 		width: 50%;
 		padding: 0 0;
 	}
-	header nav {
-		padding: 4.75em 0 12.5em 0;
-	}
+
 /*	main .one-half {
 		width: 30%;
 		padding-bottom: 290px;
