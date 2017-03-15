@@ -80,22 +80,26 @@
  			</div>
  		</section>
  	</footer>
- 	<script>
- 	$(document).ready(function(){
 
-  var nb = $(".navbar");
-  var tall = $(window).height();
-  var nbheight = $(".navbar").height();
-  var stick = tall - nbheight;
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
+   	<script>
+   	$(document).ready(function(){
 
-  $(window).scroll(function() {
-    if( $(this).scrollTop() > stick -50){
-      nb.addClass("navbar-scrolled");
-    }
-    else {
-      nb.removeClass("navbar-scrolled");
-    }
-  });
- 	</script>
+    var nb = $(".navbar");
+    var tall = $(window).height();
+    var nbheight = $(".navbar").height();
+    var stick = tall - nbheight;
+
+    $(window).scroll(function() {
+      if( $(this).scrollTop() > stick -50){
+        nb.addClass("navbar-scrolled");
+      }
+      else {
+        nb.removeClass("navbar-scrolled");
+      }
+    });
+   	</script>
  </body>
  </html>
