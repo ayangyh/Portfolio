@@ -80,9 +80,9 @@ header nav ul > li {
 }
 header span {
 	/*border-left: 1px solid #000000;*/
-	border-right: 1px solid #000000;
-	margin: 0 10px;
-	padding: 0 10px;
+	/*border-right: 1px solid #000000;*/
+	margin: 0 12px;
+	padding: 0 12px;
 }
 header nav ul > li > a {
 	color: #000000;
@@ -164,8 +164,24 @@ footer .right {
 	header nav {
 		padding: 4em 0;
 	}
-	main .four-column {
+/*	main .four-column {
 		border-top: 5px solid #000000;
+	}*/
+	.casestudies a {
+		color: #000000;
+		font-family: proxima-nova, sans-serif;
+		font-size: .85em;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.casestudies .right   {
+		float: right;
+		width: 100%;
+	}
+	.casestudies img {
+		width: cover;
+		position: relative;
+		/*height: 80vh;*/
 	}
 	footer .left {
 		float: left;
@@ -192,6 +208,9 @@ footer .right {
 	}
 	header nav {
 		padding: 4.75em 0 6.5em 0;
+	} 
+	main .left {
+		border-top: 5px solid #000000;
 	}
 	.case-one {
 		list-style-type: none;
