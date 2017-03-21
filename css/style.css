@@ -266,12 +266,21 @@ footer .right {
 		text-decoration: none;
 	}
 	.about .container {
-		margin-left: 10em;
-		margin-bottom: 10em;
+		margin: 0 15em 10em 15em;
+	}
+	.about .left {
+		border-top: none;
+		/*width: 80%;*/
+	}
+	.about img {
+		height: 40vh;
+	}
+	.about .right {
+		float: right;
 	}
 	.story p {
 		width: 65%;
-		font-size: .85em;
+		/*font-size: .85em;*/
 		line-height: 1.5em;
 		padding-bottom: 1em;
 	}
@@ -315,6 +324,14 @@ footer .right {
 	.hero img {
 		width: 100%;
 	}
+	.navbar-scrolled {
+		background-color: rgba(255,255,255,.9);
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
 	.navbar-scrolled .items {
 		text-align: center;
 		/*width: 100%;*/
@@ -351,7 +368,14 @@ footer .right {
 		text-transform: uppercase;
 	}
 	.casestudy p {
+		/*font-size: 1em;*/
 		line-height: 1.5em;
+	}
+	.casestudy .content-image {
+		display: inline-block;
+	}
+	.casestudy img {
+		height: 50vh;
 	}
 	footer h3 {
 		margin-top: 4em;
