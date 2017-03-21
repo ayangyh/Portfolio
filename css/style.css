@@ -183,6 +183,11 @@ footer .right {
 		position: relative;
 		/*height: 80vh;*/
 	}
+	.hero {
+		background-color: #EDEEF6;
+		background-size: cover;
+		height: 70vh;
+	}
 	footer .left {
 		float: left;
 		width: 65%;
@@ -269,6 +274,84 @@ footer .right {
 		font-size: .85em;
 		line-height: 1.5em;
 		padding-bottom: 1em;
+	}
+	.hero .left {
+		float: left;
+		width: 27%;
+		margin-top: 11em;
+	}
+	.case-description .left {
+		border-top: 5px solid #000000;
+	}
+	.case-description h2 {
+		font-size: 1.8em;
+		margin-top: 0;
+		padding-top: 3em;
+	}
+	.case-description p {
+		font-size: 1.2em;
+		line-height: 1.2em;
+	}
+	.case-description h3 {
+		color: #7A7A7A;
+		font-size: .9em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-top: 3em;
+	}
+	.case-description span > p {
+		color: #7A7A7A;
+		font-size: 1.1em;
+		margin-top: 0;
+		padding-top: .25em;
+	}
+	.hero .right {
+		float: right;
+		width: 68%;
+		padding-top: 10.8em;
+	}
+	.hero img {
+		width: 100%;
+	}
+	.navbar-scrolled .items {
+		text-align: center;
+		/*width: 100%;*/
+	}
+	.navbar-scrolled ul {
+		margin: 1.5em 0;
+	}
+	.navbar-scrolled ul li {
+		font-family: proxima-nova, sans-serif;
+		font-size: .8em;
+		text-transform: uppercase;
+		list-style-type: none;
+		display: inline-block;
+		margin: 0 5em;
+	}
+	.navbar-scrolled ul li a {
+		color: #000000;
+		text-decoration: none;
+	}
+	.casestudy .container {
+		margin-top: 2em;
+		/*margin: 2em 18em 0 18em;*/
+	}
+	.casestudy .left {
+		border-top: none;
+		width: 50%;
+		padding-left: 8em;
+	}
+	.casestudy .content {
+		margin: 3em 0;
+	}
+	.casestudy h2 {
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	.casestudy p {
+		line-height: 1.5em;
 	}
 	footer h3 {
 		margin-top: 4em;
