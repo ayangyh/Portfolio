@@ -330,24 +330,22 @@ footer .right {
 		top: 0;
 		width: 100%;
 		z-index: 1;
+		padding: .25em 0;
 	}
-
-	.navbar-scrolled .items {
+	.navbar .items {
 		text-align: center;
 		/*width: 100%;*/
 	}
-	.navbar-scrolled ul {
-		margin: 1.5em 0;
-	}
-	.navbar-scrolled ul li {
+	.navbar ul li {
 		font-family: proxima-nova, sans-serif;
 		font-size: .8em;
 		text-transform: uppercase;
 		list-style-type: none;
 		display: inline-block;
 		margin: 0 5em;
+		padding: 1em 0;
 	}
-	.navbar-scrolled ul li a {
+	.navbar ul li a {
 		color: #000000;
 		text-decoration: none;
 	}

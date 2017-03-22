@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
   $(window).scroll(function() {
-    if( $(this).scrollTop() > stick - 20){
+    if( $(this).scrollTop() > stick - 5){
       nb.addClass("navbar-scrolled");
     }
     else {
