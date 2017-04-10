@@ -47,7 +47,7 @@ p {
 .container:after {
 	clear: both;
 }
-.fourteen-column .eight-column .six-column .four-column {
+.fourteen-column .twelve-column.eight-column .six-column .four-column {
  	width: 96%;
  	float:left;
  	position:relative;
@@ -541,7 +541,7 @@ footer .four-column {
 		/*margin: 2em 18em 0 18em;*/
 	}
 	.case-temp {
-		width: 60%;
+		width: 70%;
 	}
 	.casestudy .eight-column {
 		border-top: none;
@@ -553,6 +553,7 @@ footer .four-column {
 	.casestudy .row {
 		padding-bottom: 2em;
 		display: inline-block;
+		width: 80%;
 	}
 	.casestudy .case-heading {
 		font-weight: normal;
@@ -569,9 +570,10 @@ footer .four-column {
 	}
 	.casestudy h3 {
 		padding-bottom: 1em;
+		padding-top: .1em;
 	}
 	.casestudy p {
-		padding-bottom: 1em;
+		padding-bottom: 0.8em;
 	}
 	.casestudy .left .two-column {
 		display: inline-block;
@@ -594,7 +596,8 @@ footer .four-column {
 		width: 100%;
 	}
 	.casestudy img {
-		height: 50vh;
+		width: 100%;
+		padding-bottom: 2em;
 	}
 	footer .container {
 		width: 90%;
