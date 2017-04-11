@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
 	font-size: 22px;
 	font-weight: bold;
-	margin-bottom: 19px;
+	/*margin-bottom: 19px;*/
 }
 h3 {
 	font-size: 20px;
@@ -22,8 +22,8 @@ h4 {
 	font-weight: lighter;
 }
 p {
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 18px;
+	line-height: 20px;
 	font-weight: normal;
 }
 .casestudy p {
@@ -143,8 +143,8 @@ footer .four-column {
 		padding: 3em 0;
 	}
 	nav .left {
-		width: auto;
-		padding: 0 17%;
+		width: 100%;
+		text-align: center;
 	}
 	nav .right {
 		float: none;
@@ -158,6 +158,9 @@ footer .four-column {
 	}
 	main ul {
 		border-top: none;
+	}
+	.casestudies img {
+		width: 100%;
 	}
 	footer .left {
 		float: none;
@@ -191,7 +194,7 @@ footer .four-column {
 		-webkit-padding-start: 0;
 	}
 	nav .left {
-		width: 50%;
+		width: auto;
 		padding: 0 0;
 	}
 	nav .right {
@@ -253,6 +256,9 @@ footer .four-column {
 		background-size: cover;
 		padding-bottom: 6.5em;
 		/*height: 70vh;*/
+	}
+	.hero img {
+		width: 100%;
 	}
 	footer .six-column {
 		float: left;
@@ -327,10 +333,6 @@ footer .four-column {
 	}
 	.fourteen-column {
 		width: 90%
-	}
-	nav .left {
-		width: 50%;
-		padding: 0 0;
 	}
 	nav .right {
 		width: 50%;
@@ -441,20 +443,21 @@ footer .four-column {
 		font-weight: bold;
 		text-decoration: none;
 	}
-	.about .container {
-		margin: 0 15em 10em 15em;
+	.about-hero .container {
+		width: auto;
 	}
 	.about .left {
 		border-top: none;
 		/*width: 80%;*/
 	}
-	.about img {
-		height: 40vh;
+	.about-hero img {
+		width: 100%;
 	}
 	.about .right {
 		float: right;
 	}
 	.story p {
+		font-family: freight-text-pro, serif;
 		width: 65%;
 		/*font-size: .85em;*/
 		line-height: 1.5em;
@@ -488,6 +491,7 @@ footer .four-column {
 		font-size: 1.8em;
 		margin-top: 0;
 		padding-top: 3em;
+		padding-bottom: 1em;
 	}
 	.case-description p {
 		font-size: 1.1em;
@@ -575,9 +579,9 @@ footer .four-column {
 		float: left;
 		/*width: 15%;*/
 		text-align: right;
-		padding-right: 2em;
-		padding-top: .1em
 		line-height: 1em;
+		padding-right: 2em;
+		padding-top: .25em;
 		color: #9CA1C8;
 	}
 	.casestudy h2 {
@@ -609,6 +613,7 @@ footer .four-column {
 	.casestudy img {
 		width: 100%;
 		padding-bottom: .5em;
+		padding-top: .5em;
 	}
 	.casestudy .cs-img-cap {
 		float: right;
