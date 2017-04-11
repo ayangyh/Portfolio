@@ -47,7 +47,7 @@ p {
 .container:after {
 	clear: both;
 }
-.fourteen-column .twelve-column.eight-column .six-column .four-column {
+.fourteen-column .twelve-column .ten-column .eight-column .six-column .four-column {
  	width: 96%;
  	float:left;
  	position:relative;
@@ -338,9 +338,9 @@ footer .four-column {
 		width: 50%;
 		padding: 0 0;
 	}
-	header nav {
-		padding: 4.75em 0 6.5em 0;
-	} 
+/*	header nav {
+		padding: 4.75em 0 4.75em 0;
+	}*/ 
 	main .left {
 		/*border-top: 5px solid #000000;*/
 	}
@@ -446,17 +446,20 @@ footer .four-column {
 	.about-hero .container {
 		width: auto;
 	}
-	.about .left {
+/*	.about .left {
 		border-top: none;
 		/*width: 80%;*/
-	}
-	.about-hero img {
+	}*/
+/*	.about-hero img {
 		width: 100%;
-	}
-	.about .right {
+	}*/
+/*	.about .right {
 		float: right;
+	}*/
+	.about .container {
+		width: auto;
 	}
-	.story p {
+	.text-content p {
 		font-family: freight-text-pro, serif;
 		width: 65%;
 		/*font-size: .85em;*/
@@ -561,7 +564,7 @@ footer .four-column {
 	.casestudy .eight-column {
 		border-top: none;
 		width: 85%;
-/*		padding: 0 8em;*/
+		padding-left: 10%;
 		float: right;
 		display: inline-block;
 	}
@@ -580,12 +583,13 @@ footer .four-column {
 		/*width: 15%;*/
 		text-align: right;
 		line-height: 1em;
-		padding-right: 2em;
+		padding-left: 100%;
 		padding-top: .25em;
 		color: #9CA1C8;
 	}
 	.casestudy h2 {
 		padding-top: .1em;
+		padding-bottom: 1em;
 	}
 	.casestudy p {
 		padding-bottom: 0.8em;
