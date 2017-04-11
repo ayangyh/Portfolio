@@ -144,16 +144,17 @@ footer .four-column {
 		width: 90%;
 	}
 	header nav {
-		padding: 3em 0;
+		padding: 1.5em 0;
 	}
 	nav .left {
 		width: 100%;
 		text-align: center;
+		padding-top: 1em;
 	}
 	nav .right {
 		float: none;
 		width: auto;
-		padding: 2em 20%;
+		padding-top: 2em;
 	}
 	header nav ul {
 		text-align: center;
@@ -165,6 +166,16 @@ footer .four-column {
 	}
 	.casestudies img {
 		width: 100%;
+	}
+	.about-hero .container {
+		width: auto;
+	}
+	.about-hero img {
+		width: 100%;
+	}
+	.about-body p {
+		font-family: freight-text-pro, serif;
+		line-height: 1.8em
 	}
 	footer .left {
 		float: none;
@@ -213,6 +224,32 @@ footer .four-column {
 /*	main .four-column {
 		border-top: 5px solid #000000;
 	}*/
+	.navbar-scrolled {
+		background-color: rgba(255,255,255,.9);
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+		padding: .25em 0;
+	}
+	.navbar .items {
+		text-align: center;
+		/*width: 100%;*/
+	}
+	.navbar ul li {
+		font-family: proxima-nova, sans-serif;
+		font-size: .8em;
+		font-weight: 500;
+		text-transform: uppercase;
+		list-style-type: none;
+		display: inline-block;
+		margin: 0 3em;
+		padding: 1em 0;
+	}
+	.navbar ul li a {
+		color: #000000;
+		text-decoration: none;
+	}
 	.casestudies a {
 		color: #000000;
 		font-family: proxima-nova, sans-serif;
@@ -253,15 +290,23 @@ footer .four-column {
 		right: 100%;
 		margin-right: 10px;
 		}
-
-	
 	.hero {
 		background-color: #EDEEF6;
 		background-size: cover;
 		padding-bottom: 6.5em;
+		padding-top: 6.5em;
 		/*height: 70vh;*/
 	}
 	.hero img {
+		width: 100%;
+	}
+	.hero .no-mobile {
+		display: none;
+	}
+	.about-hero .container {
+		width: auto;
+	}
+	.about-hero img {
 		width: 100%;
 	}
 	footer .footer-content {
@@ -458,9 +503,6 @@ footer .four-column {
 	.about-hero img {
 		width: 100%;
 	}
-	.about-hero .container {
-		width: auto;
-	}
 	.about .row {
 		padding-bottom: 2em;
 		padding-top: 3em;
@@ -478,6 +520,13 @@ footer .four-column {
 		/*font-size: .85em;*/
 		line-height: 1.8em;
 		padding-bottom: 1em;
+	}
+	.hero {
+		background-color: #EDEEF6;
+		background-size: cover;
+		padding-bottom: 6.5em;
+		padding-top: 0;
+		/*height: 70vh;*/
 	}
 	.hero .line span {
 		display: inline-block;
@@ -557,6 +606,7 @@ footer .four-column {
 	.navbar ul li {
 		font-family: proxima-nova, sans-serif;
 		font-size: .8em;
+		font-weight: 700;
 		text-transform: uppercase;
 		list-style-type: none;
 		display: inline-block;
