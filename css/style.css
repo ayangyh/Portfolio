@@ -31,7 +31,7 @@ p {
 	font-weight: normal;
 }
 .casestudy p {
-	font-family: freight-text-pro, serif;
+	font-family: georgia, serif;
 	line-height: 1.8em
 }
 
@@ -82,12 +82,6 @@ header nav ul > li {
 	font-size: .88em;
 	list-style-type: none;
 	margin: 0 0px;
-}
-header span {
-	/*border-left: 1px solid #000000;*/
-	/*border-right: 1px solid #000000;*/
-	margin: 0 12px;
-	padding: 0 12px;
 }
 header nav ul > li > a {
 	color: #000000;
@@ -141,7 +135,7 @@ footer .four-column {
 /* MOBILES */
 @media (min-width: 320px) {
 	.container {
-		width: 90%;
+		width: 85%;
 	}
 	header nav {
 		padding: 1.5em 0;
@@ -149,20 +143,30 @@ footer .four-column {
 	nav .left {
 		width: 100%;
 		text-align: center;
-		padding-top: 1em;
+		padding: 1em 0;
 	}
 	nav .right {
 		float: none;
 		width: auto;
-		padding-top: 2em;
+		padding-top: 3em;
 	}
 	header nav ul {
 		text-align: center;
 		width: 100%;
 		-webkit-padding-start: 0;
 	}
+	header nav ul li {
+		padding: 0 1.75em;
+	}
+	header span {
+		margin: 0;
+		padding: 0;
+	}
 	main ul {
 		border-top: none;
+	}
+	.casestudies .no-mobile {
+		display: none;
 	}
 	.casestudies img {
 		width: 100%;
@@ -176,6 +180,12 @@ footer .four-column {
 	.about-body p {
 		font-family: freight-text-pro, serif;
 		line-height: 1.8em
+	}
+	.hero img {
+		width: 100%;
+	}
+	.hero .no-mobile {
+		display: none;
 	}
 	footer .left {
 		float: none;
@@ -199,6 +209,9 @@ footer .four-column {
 /* TABLETS */
 @media (min-width: 768px) {
 	.container {
+		width: 80%;
+	}
+	header .container {
 		width: 90%;
 	}
 	header nav ul {
@@ -207,6 +220,13 @@ footer .four-column {
 		margin: 0;
 		text-align: right;
 		-webkit-padding-start: 0;
+	}
+	header nav ul li {
+		padding: 0;
+	}
+	header span {
+		margin: 0 12px;
+		padding: 0 12px;
 	}
 	nav .left {
 		width: auto;
@@ -223,38 +243,6 @@ footer .four-column {
 	}
 /*	main .four-column {
 		border-top: 5px solid #000000;
-	}*/
-	.navbar-scrolled {
-		background-color: rgba(255,255,255,.9);
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 1;
-		padding: .25em 0;
-	}
-	.navbar .items {
-		text-align: center;
-		/*width: 100%;*/
-	}
-	.navbar ul li {
-		font-family: proxima-nova, sans-serif;
-		font-size: .8em;
-		font-weight: 500;
-		text-transform: uppercase;
-		list-style-type: none;
-		display: inline-block;
-		margin: 0 3em;
-		padding: 1em 0;
-	}
-	.navbar ul li a {
-		color: #000000;
-		text-decoration: none;
-	}
-/*	.navbar-scrolled #overview {
-		padding-top: 36em;
-	}*/
-/*	#problem {
-		padding-top: 6em;
 	}*/
 	.casestudies a {
 		color: #000000;
@@ -303,18 +291,57 @@ footer .four-column {
 		padding-top: 6.5em;
 		/*height: 70vh;*/
 	}
-	.hero img {
+/*	.hero img {
 		width: 100%;
-	}
-	.hero .no-mobile {
+	}*/
+/*	.hero .no-mobile {
 		display: none;
-	}
+	}*/
 	.about-hero .container {
 		width: auto;
 	}
 	.about-hero img {
 		width: 100%;
 	}
+	.navbar-scrolled {
+		background-color: rgba(255,255,255,.9);
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+		padding: .25em 0;
+	}
+	.navbar .items {
+		text-align: center;
+		/*width: 100%;*/
+	}
+	.navbar ul li {
+		font-family: proxima-nova, sans-serif;
+		font-size: .8em;
+		font-weight: 700;
+		text-transform: uppercase;
+		list-style-type: none;
+		display: inline-block;
+		margin: 0 2em;
+		padding: 1em 0;
+	}
+	.navbar ul li a {
+		color: #000000;
+		text-decoration: none;
+	}
+
+	.casestudy .row {
+		padding-bottom: 2em;
+	}
+	.casestudy h3 {
+		color: #9CA1C8;
+	}
+/*	#overview {
+		height: 5em 0;
+	}*/
+/*	#problem {
+		padding-top: 6em;
+	}*/
 	footer .footer-content {
 		padding-left: 4em;
 	}

@@ -9,12 +9,13 @@ $(document).ready(function(){
 
 
   $(window).scroll(function() {
-    if( $(this).scrollTop() > stick - 110){
+    if( $(this).scrollTop() > stick - 130){
       nb.addClass("navbar-scrolled");
     }
     else {
       nb.removeClass("navbar-scrolled");
     }
   });
+
 
 });
