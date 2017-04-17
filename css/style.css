@@ -171,9 +171,9 @@ footer .four-column {
 	main ul {
 		border-top: none;
 	}
-	.casestudies .no-mobile {
+/*	.casestudies .no-mobile {
 		display: none;
-	}
+	}*/
 	.casestudies img {
 		width: 100%;
 	}
@@ -476,11 +476,11 @@ footer .four-column {
 	}
 	.casestudies .left {
 		float: left;
-		width: 25%;
+		width: 72%;
 	}
 	.casestudies .right   {
 		float: right;
-		width: 72%;
+		width: 25%;
 	}
 	* {
 		-moz-box-sizing: border-box;
