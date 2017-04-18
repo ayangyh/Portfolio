@@ -20,7 +20,7 @@ h2 {
 	-webkit-margin-after: 0;
 }
 h3 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: lighter;
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
@@ -378,9 +378,9 @@ footer .four-column {
 /*	#problem {
 		padding-top: 6em;
 	}*/
-	footer .footer-content {
+/*	footer .footer-content {
 		padding-left: 4em;
-	}
+	}*/
 	footer .six-column {
 		display: inline-block;
 		float: left;
@@ -590,6 +590,9 @@ footer .four-column {
 		/*font-size: .85em;*/
 		line-height: 1.8em;
 		padding-bottom: 1em;
+	}
+	.contact-hero {
+		background-color: #EDEEF6;
 	}
 	.hero {
 		background-color: #EDEEF6;
