@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
 	font-size: 22px;
-	font-weight: bold;
+	font-weight: 700;
 	/*margin-bottom: 19px;*/
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
@@ -234,7 +234,7 @@ footer .four-column {
 /* TABLETS */
 @media (min-width: 768px) {
 	.container {
-		width: 80%;
+		width: 70%;
 	}
 	header .container {
 		width: 90%;
@@ -358,6 +358,13 @@ footer .four-column {
 	}
 	.casestudy h3 {
 		color: #9CA1C8;
+		padding-bottom: .5em;
+	}
+	.casestudy h2 {
+		padding-bottom: .5em;
+	}
+	.casestudy p {
+		padding-bottom: .8em;
 	}
 /*	#overview {
 		height: 5em 0;
@@ -411,7 +418,7 @@ footer .four-column {
 		color: #fff;
 		font-family: proxima-nova, sans-serif;
 		font-size: .85em;
-		font-weight: bold;
+		font-weight: 700;
 		text-decoration: none; 
 	}
 /*	footer .left .four-column {
@@ -521,7 +528,7 @@ footer .four-column {
 		margin-bottom: 0;
 /*		padding-top: .5em;
 		padding-bottom: 4.5em;*/
-		padding: .5em 0 4.5em;
+		padding: .5em 0 2em;
 	}
 
 /*	.casestudies.line span {
@@ -551,7 +558,7 @@ footer .four-column {
 		color: #000000;
 		font-family: proxima-nova, sans-serif;
 		font-size: .85em;
-		font-weight: bold;
+		font-weight: 700;
 		text-decoration: none;
 	}
 	.about-hero .container {
@@ -621,7 +628,7 @@ footer .four-column {
 	.case-description h3 {
 		color: #7A7A7A;
 		font-size: .9em;
-		font-weight: bold;
+		font-weight: 700;
 		text-transform: uppercase;
 		margin-bottom: 0;
 		margin-top: 0;
