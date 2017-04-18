@@ -204,6 +204,9 @@ footer .four-column {
 	.hero .no-mobile {
 		display: none;
 	}
+	.navbar .no-mobile {
+		display: none;
+	}
 	.case-description h2 {
 		padding-top: 1em;
 		padding-bottom: .5em;
@@ -211,6 +214,17 @@ footer .four-column {
 	.case-description p {
 		line-height: 1.2em;
 		padding: .5em 0;
+	}
+	.casestudy h3 {
+		color: #9CA1C8;
+		padding-bottom: .5em;
+		padding-top: 1em;
+	}
+	.casestudy h2 {
+		padding-bottom: .5em;
+	}
+	.casestudy p {
+		padding-bottom: .8em;
 	}
 	footer .left {
 		float: none;
@@ -352,19 +366,11 @@ footer .four-column {
 		color: #000000;
 		text-decoration: none;
 	}
-
+	.navbar .no-mobile {
+		display: block;
+	}
 	.casestudy .row {
 		padding-bottom: 2em;
-	}
-	.casestudy h3 {
-		color: #9CA1C8;
-		padding-bottom: .5em;
-	}
-	.casestudy h2 {
-		padding-bottom: .5em;
-	}
-	.casestudy p {
-		padding-bottom: .8em;
 	}
 /*	#overview {
 		height: 5em 0;
@@ -608,8 +614,14 @@ footer .four-column {
 		}
 	.hero .left {
 		float: left;
+		width: 68%;
+	}
+	.hero .right {
+		float: right;
 		width: 27%;
-		margin-top: 7em;
+	}
+	.hero img {
+		width: 100%;
 	}
 	.case-description .right {
 		border-top: 5px solid #000000;
@@ -643,14 +655,6 @@ footer .four-column {
 		padding-top: .25em;
 		padding-left: 4.85em;
 		text-transform: uppercase;
-	}
-
-	.hero .right {
-		float: right;
-		width: 68%;
-	}
-	.hero img {
-		width: 100%;
 	}
 	.navbar-scrolled {
 		background-color: rgba(255,255,255,.9);
