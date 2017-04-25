@@ -216,15 +216,17 @@ footer .four-column {
 		padding: .5em 0;
 	}
 	.casestudy h3 {
-		color: #9CA1C8;
-		padding-bottom: .5em;
-		padding-top: 1em;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: .1em;
+		margin-top: .1em;
 	}
 	.casestudy h2 {
-		padding-bottom: .5em;
+		margin-bottom: .5em;
+		font-weight: 600;
 	}
 	.casestudy p {
-		padding-bottom: .8em;
+		margin-bottom: .8em;
 	}
 	footer .left {
 		float: none;
@@ -370,7 +372,7 @@ footer .four-column {
 		display: block;
 	}
 	.casestudy .row {
-		padding-bottom: 2em;
+		margin: 2em 0;
 	}
 /*	#overview {
 		height: 5em 0;
@@ -693,16 +695,21 @@ footer .four-column {
 		width: 70%;
 	}
 	.casestudy .eight-column {
-/*		border-top: none;*/
-		width: 85%;
-		padding-left: 10%;
-		float: right;
-/*		display: inline-block;*/
+		display: inline-block;
+		margin: 0 15%;
+	}
+	.case-image .eight-column {
+		margin: 0;
+		text-align: center;
+	}
+	.casestudy .four-column {
+		display: inline-block;
+/*		padding: 0 .5em;*/
+		width: 49%;
 	}
 	.casestudy .row {
-		padding-bottom: 2em;
-		display: inline-block;
-		width: 80%;
+/*		padding: 1em 10%;
+*/		display: inline-block;
 	}
 	.casestudy .case-heading {
 		font-weight: normal;
@@ -710,23 +717,14 @@ footer .four-column {
 		/*width: 10%;*/
 	}
 	.casestudy h3 {
-		float: left;
-		/*width: 15%;*/
-		text-align: right;
-		line-height: 1em;
-		padding-left: 100%;
-		padding-top: .25em;
-		color: #9CA1C8;
+		margin: .5em 0;
 	}
 	.casestudy h2 {
-		padding-top: .1em;
-		padding-bottom: 1em;
+		margin-top: .25em;
+		margin-bottom: .5em;
 	}
 	.casestudy p {
-		padding-bottom: 0.8em;
-	}
-	.casestudy .left .two-column {
-		display: inline-block;
+		margin-bottom: 0.8em;
 	}
 /*	.case-heading span {
 	    display: block;
@@ -741,14 +739,9 @@ footer .four-column {
 		/*width: 85%;*/
 
 	}
-	.casestudy .content-image {
-		display: inline-block;
-		width: 100%;
-	}
 	.casestudy img {
 		width: 100%;
-		padding-bottom: .5em;
-		padding-top: .5em;
+		margin-bottom:1em;
 	}
 	.casestudy .cs-img-cap {
 		float: right;
