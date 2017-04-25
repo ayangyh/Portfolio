@@ -57,7 +57,7 @@ p {
 .container:after {
 	clear: both;
 }
-.fourteen-column .twelve-column .ten-column .eight-column .six-column .four-column {
+.fourteen-column .twelve-column .ten-column .eight-column .six-column .four-column .three-column {
  	width: 96%;
  	float:left;
  	position:relative;
@@ -194,7 +194,25 @@ footer .four-column {
 		font-family: freight-text-pro, serif;
 		line-height: 1.8em
 	}
-	.hero {
+	.casestudy .container {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	.casestudy .eight-column {
+		margin-bottom: 0;
+	}
+	.casestudy h3 {
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+	.casestudy a {
+		color: #00DCF7;
+		text-decoration: none;
+	}
+	.casestudy .row {
+		margin: 2em 0;
+	}
+	.hero .cs1 {
 		background-color: #EDEEF6;
 		padding: 2em 0;
 	}
@@ -218,8 +236,8 @@ footer .four-column {
 	.casestudy h3 {
 		font-weight: 700;
 		text-transform: uppercase;
-		margin-bottom: .1em;
-		margin-top: .1em;
+		margin-bottom: .25em;
+		margin-top: .25em;
 	}
 	.casestudy h2 {
 		margin-bottom: .5em;
@@ -324,11 +342,16 @@ footer .four-column {
 	.about-hero img {
 		width: 100%;
 	}
-	.hero {
+	.hero .cs1 {
 		background-color: #EDEEF6;
 		background-size: cover;
 		padding: 6.5em 0;
 		/*height: 70vh;*/
+	}
+	.hero .cs2 {
+		background-color: #F0F8F9;
+		background-size: cover;
+		padding: 6.5em 0;
 	}
 	.hero img {
 		padding-top: 0;
@@ -372,8 +395,8 @@ footer .four-column {
 		display: block;
 	}
 	.casestudy .row {
-		margin: 2em 0;
-	}
+/*		margin: 1em 0;
+*/	}
 /*	#overview {
 		height: 5em 0;
 	}*/
@@ -596,8 +619,13 @@ footer .four-column {
 	.contact-hero {
 		background-color: #EDEEF6;
 	}
-	.hero {
+	.hero .cs1 {
 		background-color: #EDEEF6;
+		background-size: cover;
+		/*height: 70vh;*/
+	}
+	.hero .cs2 {
+		background-color: #F0F8F9;
 		background-size: cover;
 		/*height: 70vh;*/
 	}
@@ -628,7 +656,7 @@ footer .four-column {
 	.hero img {
 		width: 100%;
 	}
-	.case-description .right {
+	.hero .right  {
 		border-top: 5px solid #000000;
 	}
 	.case-description h2 {
@@ -640,7 +668,7 @@ footer .four-column {
 	.case-description p {
 		font-size: 1.1em;
 		line-height: 1.2em;
-		padding-left: 3.5em;
+/*		padding-left: 3.5em;*/
 	}
 	.case-description h3 {
 		color: #7A7A7A;
@@ -650,7 +678,7 @@ footer .four-column {
 		margin-bottom: 0;
 		margin-top: 0;
 		padding-top: 3em;
-		padding-left: 4.3em;
+/*		padding-left: 4.3em;*/
 	}
 	.case-description span > p {
 		color: #7A7A7A;
@@ -658,7 +686,7 @@ footer .four-column {
 		line-height: 1.5em
 		margin-top: 0;
 		padding-top: .25em;
-		padding-left: 4.85em;
+/*		padding-left: 4.85em;*/
 		text-transform: uppercase;
 	}
 	.navbar-scrolled {
@@ -689,6 +717,7 @@ footer .four-column {
 	}
 	.casestudy .container {
 		margin-top: 2em;
+		margin-bottom: 6em;
 		/*margin: 2em 18em 0 18em;*/
 	}
 	.case-temp {
@@ -704,12 +733,18 @@ footer .four-column {
 	}
 	.casestudy .four-column {
 		display: inline-block;
-/*		padding: 0 .5em;*/
+		padding: 0 .5em;
 		width: 49%;
 	}
+	.casestudy .three-column {
+		display: inline-block;
+		padding: 0 .5em;
+		width: 33%;
+	}
 	.casestudy .row {
-/*		padding: 1em 10%;
-*/		display: inline-block;
+		/*padding: 1em 10%;*/
+		margin: 1em 0;
+		display: inline-block;
 	}
 	.casestudy .case-heading {
 		font-weight: normal;
@@ -752,13 +787,13 @@ footer .four-column {
 		display: inline-block;
 		width: 100%;
 	}
-	.casestudy .cs-img-cap p {
+	.casestudy .cs-caption p {
 		color: #A2A2A2;
 		font-family: proxima-nova, sans-serif;
-		font-size: 0.8125em;
-		font-style: italic;
+		font-size: 1em;
 		line-height: 1.5em;
-		padding-top: .5em;
+/*		padding-top: .5em;*/
+		text-align: center;
 	}
 	footer .container {
 		width: 90%;
