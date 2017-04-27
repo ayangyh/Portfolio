@@ -10,10 +10,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
 	font-size: 32px;
-	font-weight: 900;
+	font-weight: 700;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 }
 h2 {
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: 700;
 	/*margin-bottom: 19px;*/
 	-webkit-margin-before: 0;
@@ -177,6 +179,20 @@ footer .four-column {
 	.casestudies img {
 		width: 100%;
 	}
+	.casestudies .description {
+		margin-bottom: 1.5em;
+	}
+	.casestudies h1 {
+		font-size: 26px;
+		margin-top: .5em;
+	}
+	.casestudies p {
+		margin-top: .5em;
+		line-height: 1.25em;
+	}
+	.casestudies .cta {
+		margin-top: .5em;
+	}
 	.casestudies a {
 		color: #000000;
 		font-family: proxima-nova, sans-serif;
@@ -225,7 +241,7 @@ footer .four-column {
 	.navbar .no-mobile {
 		display: none;
 	}
-	.case-description h2 {
+	.case-description h1 {
 		padding-top: 1em;
 		padding-bottom: .5em;
 	}
@@ -345,7 +361,7 @@ footer .four-column {
 	.hero .cs1 {
 		background-color: #EDEEF6;
 		background-size: cover;
-		padding: 6.5em 0;
+		padding: 4.5em 0;
 		/*height: 70vh;*/
 	}
 	.hero .cs2 {
@@ -359,8 +375,8 @@ footer .four-column {
 /*	.hero .no-mobile {
 		display: none;
 	}*/
-	.case-description h2 {
-		padding-top: 2em;
+	.case-description h1 {
+		padding-top: 1em;
 	}
 	.case-description p {
 		padding: 1em 0;
@@ -393,6 +409,16 @@ footer .four-column {
 	}
 	.navbar .no-mobile {
 		display: block;
+	}
+	.casestudy .four-column {
+		width: 46%;
+		display: inline-block;
+		padding: 0 .5em;
+	}
+	.casestudy .three-column {
+		width: 31%;
+		display: inline-block;
+		padding: 0 .25em;
 	}
 	.casestudy .row {
 /*		margin: 1em 0;
@@ -547,12 +573,12 @@ footer .four-column {
 		width: 100%;
 		/*height: 80vh;*/
 	}
-	.casestudies h2 {
-		margin-top: 0;
-		margin-bottom: 0;
+	.casestudies h1 {
+		margin-top: 7.5em;
+		/*margin-bottom: 0;*/
 /*		padding-top: 4em;
 		padding-bottom: .5em;*/
-		padding: 14em 0 .5em 0;
+		/*padding: 14em 0 .5em 0;*/
 	}
 	.casestudies p {
 		margin-top: 0;
@@ -622,6 +648,7 @@ footer .four-column {
 	.hero .cs1 {
 		background-color: #EDEEF6;
 		background-size: cover;
+		padding: 6.5em 0;
 		/*height: 70vh;*/
 	}
 	.hero .cs2 {
@@ -659,7 +686,7 @@ footer .four-column {
 	.hero .right  {
 		border-top: 5px solid #000000;
 	}
-	.case-description h2 {
+	.case-description h1 {
 		font-size: 1.8em;
 		margin-top: 0;
 		padding-top: 3em;
