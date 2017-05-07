@@ -4,12 +4,13 @@ $(document).ready(function(){
   var tall = $(window).height();
   var nbheight = $(".navbar").height();  
   var stick = tall - nbheight;
+  var h3 = $(".anchor");
 
   console.log(stick);
 
 
   $(window).scroll(function() {
-    if( $(this).scrollTop() > stick - 130){
+    if( $(this).scrollTop() > stick + 95){
       nb.addClass("navbar-scrolled");
     }
     else {

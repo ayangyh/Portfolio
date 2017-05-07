@@ -1,3 +1,9 @@
+h3 .anchor {
+	display: block;
+	position: relative;
+	top: -250px;
+	visibility: hidden;
+}
 html, body {
 	overflow-x: hidden;
 }
@@ -134,7 +140,7 @@ footer p {
 footer a {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000000;
 }
 footer .six-column {
 	float: left;
@@ -316,12 +322,12 @@ footer .four-column {
 		padding-bottom: 2em;
 	}
 	.btn {
-		border-radius: 4px;
-		font-size: 16px;
+/*		border-radius: 4px;*/
+		font-size: 22px;
 		font-weight: 300;
-		background: #00DCF7;
-		border: 2px solid #00DCF7;
-		padding: 10px 30px;
+/*		background: #00DCF7;*/
+		border-bottom: 2px solid #00DCF7;
+		padding: 2px 0px;
 	}
 }
 
