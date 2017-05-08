@@ -157,6 +157,7 @@ footer .four-column {
 	text-align: center;
 }
 .copyright-info p {
+	float: right;
 	font-size: 13px;
 	font-weight: 100;
 	color: #FFFFFF;
@@ -423,6 +424,13 @@ footer .four-column {
 		float: right;
 		width: 27%;
 		border-top: 5px solid #000000;
+	}
+	input, textarea {
+		font-family: proxima-nova, sans-serif;
+		border: 1px solid #DDDDDD;
+		margin-bottom: 0.75em;
+		padding: 0.9em;
+		width: 100%;
 	}
 	.hero .cs1 {
 		background-color: #EDEEF6;
