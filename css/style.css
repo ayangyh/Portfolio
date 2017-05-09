@@ -1,6 +1,9 @@
 a.underline:hover {
 	border-bottom: 2px solid #00DCF7;
 }
+html, body {
+	overflow-x: hidden;
+}
 h3 .anchor {
 	display: block;
 	position: relative;
@@ -125,7 +128,6 @@ main div ul {
 }*/
 footer {
 	background-size: cover;
-	padding: 3em 0;
 }
 footer h3 {
 	color: #000000;
@@ -142,7 +144,6 @@ footer p {
 }
 footer a {
 	text-decoration: none;
-	text-transform: uppercase;
 	color: #000000;
 }
 footer .six-column {
@@ -150,9 +151,12 @@ footer .six-column {
 }
 footer .four-column {
 	float: left;
-}	
+}
+.footer-head {
+	background-color: #EEEEEE;
+	padding: 6em 0;
+}
 .copyright-info {
-	background-color: #4D4D4D;
 	padding: 1em 0;
 	text-align: center;
 }
@@ -160,7 +164,7 @@ footer .four-column {
 	float: right;
 	font-size: 13px;
 	font-weight: 100;
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 /* MEDIA QUERIES */
 /* MOBILES */
@@ -199,11 +203,22 @@ footer .four-column {
 /*	.casestudies .no-mobile {
 		display: none;
 	}*/
+	.casestudies .case-one {
+		background-color: #EDEEF6;
+	}
+	.casestudies .case-two {
+		background-color: #F0F8F9;
+	}
 	.casestudies img {
 		width: 100%;
 	}
+	.casestudies .image {
+		padding: 3em 1em .75em 1em;
+	}
 	.casestudies .description {
 		margin-bottom: 1.5em;
+		text-align: center;
+		padding: 0 1em 2.5em 1em;
 	}
 	.casestudies h1 {
 		font-size: 1.75em;
@@ -214,7 +229,7 @@ footer .four-column {
 		line-height: 1.25em;
 	}
 	.casestudies .cta {
-		margin-top: .5em;
+		margin-top: 1em;
 	}
 	.casestudies a {
 		color: #000000;
@@ -228,11 +243,22 @@ footer .four-column {
 	}
 	.about-hero {
 		background-image: url("../images/about-ay.jpg");
-		background-position: center center;
+		background-color: rgba(0, 0, 0, 0.25);
+		background-blend-mode: multiply;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		display: block;
-		height: 100vh;
+		position: relative;
+		height: 100%;
+	}
+	.about-heading h1 {
+		color: #FFFFFF;
+		font-size: 2.8em;
+		margin-top: 0;
+		padding-top: 2em;
+		padding-bottom: 1em;
+		/*position: absolute;*/
+		/*transform: translate(-50%, 50%);*/
 	}
 	.about-body p {
 		font-family: freight-text-pro, serif;
@@ -311,7 +337,7 @@ footer .four-column {
 		float: none;
 	}
 	footer h3 {
-		margin-bottom: .5em;
+		/*margin-bottom: .5em;*/
 		margin-top: 0;
 		text-align: center;
 	}
@@ -324,6 +350,7 @@ footer .four-column {
 		/*padding-right: 2em;*/
 	}
 	footer .container {
+		width: 100%;
 		text-align: center;
 	}
 	.footer-content {
@@ -381,40 +408,74 @@ footer .four-column {
 		float: right;
 		width: 100%;
 	}*/
+	.casestudies .case-one {
+		background-color: #FFFFFF;
+	}
+	.casestudies .case-two {
+		background-color: #FFFFFF;
+	}
+	.casestudies .case-one .image {
+		background-color: #EDEEF6;
+	}
+	.casestudies .case-two .image {
+		background-color: #F0F8F9;
+	}
 	.casestudies img {
 		width: 100%;
 		position: relative;
-		padding-bottom: 5em;
+		padding: 5em;
 		/*height: 80vh;*/
+	}
+	.casestudies .image {
+		padding: 0;
+	}
+	.casestudies .description {
+		text-align: left;
+		padding-bottom: none;
 	}
 	.casestudies .cta {
 		padding-bottom: 2em;
 /*		padding-left: 4em;*/
 	}
-/*	.casestudies p{
-		padding-left: 4em;
-	}*/
-	.casestudies .line span {
-		display: inline-block;
-		position: relative;
+	.about-hero {
+		padding: 6.5em 0;
 	}
-	.casestudies .line span:before {
-		content: "";
-		position: absolute;
-		height: 5px;
-		border-bottom: 5px solid #000000;
-		top: 0;
-		width: 53px;
-		}
-	.casestudies .line span:before {
-		right: 100%;
-		margin-right: 10px;
-		}
+	.about-hero {
+		padding: 6.5em 0;
+	}
 	.about-hero .container {
-		width: auto;
+		width: 80%;
 	}
 	.about-hero img {
-		width: 100%;
+		width: auto;
+	}
+	.about-hero {
+		background-image: url("../images/about-ay.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		height: 100%;
+	}
+	.about-hero .right {
+		float: right;
+		width: 27%;
+		border-top: 5px solid #FFFFFF;
+	}
+	.about-heading h1 {
+		color: #FFFFFF;
+		font-size: 2.8em;
+		margin-top: 0;
+		padding-top: 2em;
+		padding-bottom: 1em;
+		/*position: absolute;*/
+		/*transform: translate(-50%, 50%);*/
+	}
+	.about .row {
+		padding-bottom: 2em;
+		padding-top: 3em;
+		display: inline-block;
+		width: none;
 	}
 	.contact .left {
 		float: left;
@@ -636,7 +697,7 @@ footer .four-column {
 		position: relative;
 		overflow: hidden;
 	}
-	.image img {
+/*	.image img {
  		max-width: 100%;
  		-moz-transition: all 0.3s;
  		-webkit-transition: all 0.3s;
@@ -646,7 +707,7 @@ footer .four-column {
 		-moz-transform: scale(1.1);
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
-	}
+	}*/
 	.casestudies img {
 		width: 100%;
 		/*height: 80vh;*/
@@ -695,19 +756,8 @@ footer .four-column {
 		font-weight: 700;
 		text-decoration: none;
 	}
-	.about-hero {
-		padding: 6.5em 0;
-	}
-	.about-hero .container {
-		width: 80%;
-	}
 	.about-hero img {
 		width: 100%;
-	}
-	.about-hero .right {
-		float: right;
-		width: 27%;
-		border-top: 5px solid #FFFFFF;
 	}
 	.about-heading h1 {
 		color: #FFFFFF;
@@ -715,12 +765,10 @@ footer .four-column {
 		margin-top: 0;
 		padding-top: 2em;
 		padding-bottom: 1em;
-
+		/*position: absolute;*/
+		/*transform: translate(-50%, 50%);*/
 	}
 	.about .row {
-		padding-bottom: 2em;
-		padding-top: 3em;
-		display: inline-block;
 		width: 80%;
 	}
 	.about .eight-column {
@@ -922,9 +970,7 @@ footer .four-column {
 /*		padding-top: .5em;*/
 		text-align: center;
 	}
-	footer .container {
-		width: 90%;
-	}
+
 	footer h3 {
 /*		margin-top: 4em;*/
 	}
