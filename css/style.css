@@ -488,12 +488,36 @@ footer .four-column {
 		width: 27%;
 		border-top: 5px solid #000000;
 	}
+	.contact {
+		background-color: #EDEEF6;
+		padding: 12em 0;
+	}
+	.contact h3 {
+		padding-top: 2em;
+		padding-bottom: 1em;
+	}
+	.contact-heading h1 {
+		font-size: 2.8em;
+		margin-top: 0;
+		padding-top: 2em;
+		padding-bottom: 1em;
+	}
+	.form {
+		width: 75%;
+	}
 	input, textarea {
 		font-family: proxima-nova, sans-serif;
-		border: 1px solid #DDDDDD;
+		border: 3px solid #DDDDDD;
 		margin-bottom: 0.75em;
 		padding: 0.9em;
 		width: 100%;
+	}
+	button {
+		font-family: proxima-nova, sans-serif;
+		border: 3px solid #DDDDDD;
+		margin-bottom: 0.75em;
+		padding: 0.9em;
+		width: 25%;
 	}
 	.hero .cs1 {
 		background-color: #EDEEF6;
@@ -783,16 +807,6 @@ footer .four-column {
 /*		width: 65%;*/
 		/*font-size: .85em;*/
 		line-height: 1.8em;
-		padding-bottom: 1em;
-	}
-	.contact {
-		background-color: #EDEEF6;
-		padding: 6.5em 0;
-	}
-	.contact-heading h1 {
-		font-size: 2.8em;
-		margin-top: 0;
-		padding-top: 2em;
 		padding-bottom: 1em;
 	}
 	.hero .cs1 {
