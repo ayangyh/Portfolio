@@ -152,10 +152,6 @@ footer .six-column {
 footer .four-column {
 	float: left;
 }
-.footer-head {
-	background-color: #EEEEEE;
-	padding: 6em 0;
-}
 .copyright-info {
 	padding: 1em 0;
 	text-align: center;
@@ -330,6 +326,12 @@ footer .four-column {
 	.casestudy p {
 		margin-bottom: .8em;
 	}
+	#footer {
+		background-color: #EEEEEE;
+	}
+	.footer-head {
+	padding: 6em 0;
+	}
 	footer .left {
 		float: none;
 	}
@@ -350,7 +352,7 @@ footer .four-column {
 		/*padding-right: 2em;*/
 	}
 	footer .container {
-		width: 100%;
+		width: 90%;
 		text-align: center;
 	}
 	.footer-content {
