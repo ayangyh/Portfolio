@@ -4,6 +4,9 @@ a.underline:hover {
 a.underline:visited {
 	border-bottom: 2px solid #00DCF7;
 }
+.underline-head {
+	border-bottom: 2px solid #00DCF7;	
+}
 html, body {
 	overflow-x: hidden;
 }
@@ -236,7 +239,7 @@ footer .four-column {
 	.casestudies a {
 		color: #000000;
 		font-family: proxima-nova, sans-serif;
-		font-size: .85em;
+		font-size: 1em;
 		font-weight: 700;
 		text-decoration: none;
 	}
@@ -265,6 +268,56 @@ footer .four-column {
 	.about-body p {
 		font-family: freight-text-pro, serif;
 		line-height: 1.8em
+	}
+	.contact .container {
+		width: 90%;
+		padding: 3em 0;
+		border-top: 1px solid #BBBBBB;
+		border-bottom: 1px solid #BBBBBB;
+	}
+	.contact-temp {
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: center;
+	}
+	.contact h3 {
+		padding-top: .25em;
+		padding-bottom: .25em;
+	}
+	.contact-heading h1 {
+		font-size: 2.8em;
+		margin-top: 0;
+		padding-bottom: .75em;
+		text-decoration: : 1px solid #00DCF7; ;
+	}
+	.contact-body {
+		padding-bottom: 2em;
+	}
+	.form {
+		width: auto;
+	}
+	input, textarea {
+		font-family: proxima-nova, sans-serif;
+		border-bottom: 1px solid #000;
+		margin-bottom: 0.75em;
+		padding: 0.9em;
+		width: 100%;
+		/*background-color: #EDEEF6;*/
+	}
+	input, textarea {
+		border-top-style: none;
+		border-right-style: none;
+		border-left-style: none;		
+	}
+	button {
+		font-family: proxima-nova, sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		border: 3px solid #000;
+		margin-bottom: 0.75em;
+		padding: 0.9em;
+		width: 35%;
+		background-color: #FFFFFF;
 	}
 	.casestudy .container {
 		margin-top: 1em;
@@ -332,11 +385,8 @@ footer .four-column {
 	.casestudy p {
 		margin-bottom: .8em;
 	}
-	#footer {
-		background-color: #EEEEEE;
-	}
 	.footer-head {
-	padding: 6em 0;
+		padding: 3em 0;
 	}
 	footer .left {
 		float: none;
@@ -360,6 +410,8 @@ footer .four-column {
 	footer .container {
 		width: 90%;
 		text-align: center;
+		border-top: 1px solid #BBBBBB;
+		border-bottom: 1px solid #BBBBBB;
 	}
 	.footer-content {
 		padding-bottom: 2em;
@@ -486,45 +538,51 @@ footer .four-column {
 		display: inline-block;
 		width: none;
 	}
-	.contact .left {
-		float: left;
-		width: 68%;
+	.contact .container {
+		width: 90%;
+		padding: 8em 0;
 	}
-	.contact .right {
-		float: right;
-		width: 27%;
-		border-top: 5px solid #000000;
-	}
-	.contact {
-		background-color: #EDEEF6;
-		padding: 12em 0;
+	.contact-temp {
+		padding-left: 12.5%;
+		padding-right: 12.5%;
+		text-align: left;
 	}
 	.contact h3 {
-		padding-top: 2em;
-		padding-bottom: 1em;
+		padding-top: .5em;
+		padding-bottom: .5em;
 	}
 	.contact-heading h1 {
 		font-size: 2.8em;
 		margin-top: 0;
-		padding-top: 2em;
-		padding-bottom: 1em;
+		padding-bottom: .75em;
+		text-decoration: : 1px solid #00DCF7; ;
+	}
+	.contact-body {
+		padding-bottom: 3em;
 	}
 	.form {
-		width: 75%;
+		width: auto;
 	}
 	input, textarea {
 		font-family: proxima-nova, sans-serif;
-		border: 3px solid #DDDDDD;
+		border-bottom: 1px solid #000;
 		margin-bottom: 0.75em;
 		padding: 0.9em;
 		width: 100%;
+		/*background-color: #EDEEF6;*/
+	}
+	input, textarea {
+		border-top-style: none;
+		border-right-style: none;
+		border-left-style: none;		
 	}
 	button {
-		font-family: proxima-nova, sans-serif;
-		border: 3px solid #DDDDDD;
-		margin-bottom: 0.75em;
-		padding: 0.9em;
 		width: 25%;
+	}
+	button:hover {
+		background: #00DCF7;
+		border: 3px solid #00DCF7;
+		color: #FFFFFF;
 	}
 	.hero .cs1 {
 		background-color: #EDEEF6;
@@ -615,30 +673,15 @@ footer .four-column {
 		padding-right: 1em;
 		padding-left: 7em;
 	}
-	.footer .line span {
-		display: inline-block;
-		position: relative;
-		padding-right: 
-	}
-	.footer .line span:before {
-		content: "";
-		position: absolute;
-		height: 5px;
-		border-bottom: 5px solid #fff;
-		top: 0;
-		width: 53px;
-		}
-	.footer .line span:before {
-		right: 100%;
-		margin-right: 10px;
-		margin-left: 16px;
-		}
 /*	.footer p {
 		padding-left: 4em;
 	}
 	.footer h5 {
 		padding-left: 4em;
 	}*/
+	.footer-head {
+	padding: 6em 0;
+	}
 	.footer .cta {
 		padding-top: 2em;
 	}
@@ -785,7 +828,7 @@ footer .four-column {
 	.casestudies a {
 		color: #000000;
 		font-family: proxima-nova, sans-serif;
-		font-size: .85em;
+		font-size: 1em;
 		font-weight: 700;
 		text-decoration: none;
 	}
@@ -815,6 +858,10 @@ footer .four-column {
 		/*font-size: .85em;*/
 		line-height: 1.8em;
 		padding-bottom: 1em;
+	}
+	.contact-temp {
+		padding-left: 32.5%;
+		padding-right: 32.5%;
 	}
 	.hero .cs1 {
 		background-color: #EDEEF6;
