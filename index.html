@@ -81,7 +81,10 @@
       <div class="copyright-info">
         <div class="container fourteen-column">
           <div class="right">
-            <p>© 2021 AY. Design + Developed by Angela Yang.</p>
+            <p>© <span id="copyright-year">2021</span> AY. Designed + Developed by Angela Yang.</p>
+            <script>
+    document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+</script>
           </div>
         </div>
       </div>
