@@ -906,6 +906,11 @@ footer .four-column {
 		background-size: cover;
 		/*height: 70vh;*/
 	}
+	.hero .cs3 {
+		background-color: #FCEBE3;
+		background-size: cover;
+		/*height: 70vh;*/
+	}
 	.hero .line span {
 		display: inline-block;
 		position: relative;
