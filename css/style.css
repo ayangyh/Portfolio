@@ -961,15 +961,16 @@ footer .four-column {
 		margin-top: 0;
 		padding-top: 1em;
 /*		padding-left: 4.3em;*/
+		letter-spacing: .5px;
 	}
 	.case-description span > p {
 		color: #7A7A7A;
-		font-size: .8em;
+		font-size: 1.1em;
 		line-height: 1.5em
 		margin-top: 0;
 		padding-top: .25em;
 /*		padding-left: 4.85em;*/
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 	.navbar-scrolled {
 		background-color: rgba(255,255,255,.9);
