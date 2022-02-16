@@ -912,6 +912,11 @@ footer .four-column {
 		background-size: cover;
 		/*height: 70vh;*/
 	}
+	.hero .cs4 {
+		background-color: #E3ECFA;
+		background-size: cover;
+		/*height: 70vh;*/
+	}
 	.hero .line span {
 		display: inline-block;
 		position: relative;
