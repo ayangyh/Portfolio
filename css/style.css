@@ -56,7 +56,7 @@ h5 {
 	font-size: 16px;
 }
 p {
-	font-size: 18px;
+	font-size: 18px !important;
 	line-height: 20px;
 	font-weight: normal;
 	-webkit-margin-before: 0;
