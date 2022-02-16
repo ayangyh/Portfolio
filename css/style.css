@@ -1026,9 +1026,8 @@ footer .four-column {
 		width: 33%;
 	}
 	.casestudy .row {
-		/*padding: 1em 10%;*/
 		margin: 1em 0;
-		display: inline-block;
+		/* display: inline-block; */
 	}
 	.casestudy .case-heading {
 		font-weight: normal;
