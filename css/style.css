@@ -941,6 +941,7 @@ footer .four-column {
 	.hero .left {
 		float: left;
 		width: 68%;
+		padding-top: 4em;
 	}
 	.hero .right {
 		float: right;
