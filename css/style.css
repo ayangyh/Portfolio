@@ -607,7 +607,6 @@ footer .four-column {
 	.hero .cs2 {
 		background-color: #F0F8F9;
 		background-size: cover;
-		padding: 6.5em 0;
 	}
 	.hero img {
 		padding-top: 0;
@@ -899,7 +898,6 @@ footer .four-column {
 	.hero .cs1 {
 		background-color: #EDEEF6;
 		background-size: cover;
-		padding: 6.5em 0;
 		/*height: 70vh;*/
 	}
 	.hero .cs2 {
@@ -910,19 +908,16 @@ footer .four-column {
 	.hero .cs3 {
 		background-color: #F9E5EF;
 		background-size: cover;
-		padding-top: 6.5em;
 		/*height: 70vh;*/
 	}
 	.hero .cs4 {
 		background-color: #E3ECFA;
 		background-size: cover;
-		padding-top: 6.5em		
 		/*height: 70vh;*/
 	}
 	.hero .cs5 {
 		background-color: #FCEBE3;
 		background-size: cover;
-		padding-top: 6.5em;
 		/*height: 70vh;*/
 	}
 	.hero .line span {
@@ -944,10 +939,16 @@ footer .four-column {
 	.hero .left {
 		float: left;
 		width: 68%;
+		display: flex;
+		align-items: center;
+		height: 700px;
 	}
 	.hero .right {
 		float: right;
 		width: 27%;
+		display: flex;
+		align-items: center;
+		height: 700px;
 	}
 	.hero img {
 		width: 100%;
