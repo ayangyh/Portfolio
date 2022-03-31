@@ -609,6 +609,10 @@ footer .four-column {
 		background-color: #F0F8F9;
 		background-size: cover;
 	}
+	.hero .cs3 {
+		background-color: #F9E5EF;
+		background-size: cover;
+	}
 	.hero img {
 		padding-top: 0;
 	}
