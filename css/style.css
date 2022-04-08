@@ -13,6 +13,11 @@ a.underline:visited {
 html, body {
 	overflow-x: hidden;
 }
+#challenges, #key-results, #takeaways, #next-steps {
+	scroll-margin-top: 6em;
+	scroll-snap-type: y mandatory;
+}
+  
 h3 .anchor {
 	display: block;
 	position: relative;
@@ -1177,3 +1182,11 @@ footer .four-column {
     padding-left: 30px;
 }
 
+.header-background ul {
+	font-family: proxima-nova, sans-serif;
+}
+
+mark {
+	background-color: #F9E5EF;
+	/* display: block; */
+}
