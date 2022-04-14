@@ -496,6 +496,11 @@ footer .four-column {
 		background-color: #F0F8F9;
 		padding: 8em 8%;
 	}
+	.casestudies .case-three .image {
+		background-color: #F9E5EF;
+		padding: 8em 8%;
+		height: 315px;
+	}
 	.casestudies img {
 		width: 100%;
 		position: relative;
@@ -872,6 +877,9 @@ footer .four-column {
 		font-size: 1em;
 		font-weight: 700;
 		text-decoration: none;
+	}
+	.casestudies .case-three .image {
+		height: 635px;
 	}
 	.about-hero img {
 		width: 100%;
