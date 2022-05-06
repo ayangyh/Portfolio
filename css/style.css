@@ -250,7 +250,7 @@ footer .four-column {
 		margin-bottom: 2em;
 	}
 	.casestudies .cta {
-		padding-bottom: 2em;
+		padding-bottom: em;
 	}
 	.casestudies a {
 		color: #000000;
@@ -524,7 +524,7 @@ footer .four-column {
 		padding-bottom: none;
 	}
 	.casestudies .cta {
-		padding-bottom: 2em;	}
+		padding-bottom: 4em;	}
 	.about-hero .container {
 		width: 80%;
 	}
