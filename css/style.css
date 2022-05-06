@@ -220,12 +220,15 @@ footer .four-column {
 	}*/
 	.casestudies .case-one {
 		background-color: #EDEEF6;
+		margin-bottom: 40px;
 	}
 	.casestudies .case-two {
 		background-color: #F0F8F9;
+		margin-bottom: 40px;
 	}
 	.casestudies .case-three {
-		background-color: #FCEBE3;
+		background-color: ##F9E5EF;
+		margin-bottom: 40px;
 	}
 	.casestudies img {
 		width: 100%;
@@ -234,20 +237,23 @@ footer .four-column {
 		padding: 3em 1em .75em 1em;
 	}
 	.casestudies .description {
-		margin-bottom: 1.5em;
 		text-align: center;
-		padding: 0 1em 2.5em 1em;
+		margin-left: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
 	}
 	.casestudies h1 {
 		font-size: 1.75em;
-		margin-top: .5em;
+		margin-bottom: .5em;
 	}
 	.casestudies p {
-		margin-top: .5em;
+		/* margin-top: .5em; */
 		line-height: 1.25em;
+		margin-bottom: 3em;
 	}
 	.casestudies .cta {
-		margin-top: 1em;
+		/* margin-top: 1em; */
 	}
 	.casestudies a {
 		color: #000000;
@@ -786,18 +792,22 @@ footer .four-column {
 	}
 	.case-one {
 		list-style-type: none;
-		display: inline-block;
+		display: flex;
 	}
 	.case-two {
 		list-style-type: none;
-		display: inline-block;
+		display: flex;
+	}
+	.case-three {
+		list-style-type: none;
+		display: flex;
 	}
 	.casestudies .eight-column {
 		/*float: none;*/
 		/*width: 72%;*/
 		/*padding-bottom: 290px;*/
 		margin-top: 0;
-		margin-bottom: 5em;
+		/* margin-bottom: 5em; */
 	}
 	.casestudies .left {
 		float: left;
@@ -836,16 +846,11 @@ footer .four-column {
 	}
 	.casestudies h1 {
 		font-size: 2.8em;
-		margin-top: 0;
-		padding-top: 6em;
-		padding-bottom: 1em;
+		margin-bottom: .5em;
 	}
 	.casestudies p {
 		margin-top: 0;
-		margin-bottom: 0;
-/*		padding-top: .5em;
-		padding-bottom: 4.5em;*/
-		padding: .5em 0 2em;
+		margin-bottom: 4em;
 	}
 
 /*	.casestudies.line span {
@@ -869,7 +874,7 @@ footer .four-column {
 		margin-bottom: 0;
 /*		padding-top:4.5em;
 		padding-bottom: 7em;*/
-		padding: 1em 0 3em;
+		/* padding: 1em 0 3em; */
 	}
 	.casestudies a {
 		color: #000000;
