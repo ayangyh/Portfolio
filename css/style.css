@@ -220,15 +220,15 @@ footer .four-column {
 	}*/
 	.casestudies .case-one {
 		background-color: #EDEEF6;
-		margin-bottom: 40px;
+		margin-bottom: 2em;
 	}
 	.casestudies .case-two {
 		background-color: #F0F8F9;
-		margin-bottom: 40px;
+		margin-bottom: 2em;
 	}
 	.casestudies .case-three {
-		background-color: ##F9E5EF;
-		margin-bottom: 40px;
+		background-color: #F9E5EF;
+		margin-bottom: 2em;
 	}
 	.casestudies img {
 		width: 100%;
@@ -237,23 +237,20 @@ footer .four-column {
 		padding: 3em 1em .75em 1em;
 	}
 	.casestudies .description {
-		text-align: center;
-		margin-left: 40px;
-		display: flex;
-		flex-direction: column;
-		justify-content: end;
+		margin: 0 16px;
 	}
 	.casestudies h1 {
 		font-size: 1.75em;
 		margin-bottom: .5em;
+		margin-top: .5em;
 	}
 	.casestudies p {
 		/* margin-top: .5em; */
 		line-height: 1.25em;
-		margin-bottom: 3em;
+		margin-bottom: 2em;
 	}
 	.casestudies .cta {
-		/* margin-top: 1em; */
+		padding-bottom: 2em;
 	}
 	.casestudies a {
 		color: #000000;
@@ -490,9 +487,15 @@ footer .four-column {
 	}*/
 	.casestudies .case-one {
 		background-color: #FFFFFF;
+		margin-bottom: 5em;
 	}
 	.casestudies .case-two {
 		background-color: #FFFFFF;
+		margin-bottom: 5em;
+	}
+	.casestudies .case-three {
+		background-color: #FFFFFF;
+		margin-bottom: 5em;
 	}
 	.casestudies .case-one .image {
 		background-color: #EDEEF6;
@@ -520,9 +523,7 @@ footer .four-column {
 		padding-bottom: none;
 	}
 	.casestudies .cta {
-		padding-bottom: 2em;
-/*		padding-left: 4em;*/
-	}
+		padding-bottom: 2em;	}
 	.about-hero .container {
 		width: 80%;
 	}
@@ -828,6 +829,13 @@ footer .four-column {
 	.casestudies .image {
 		position: relative;
 		overflow: hidden;
+	}
+	.casestudies .description {
+		text-align: left;
+		margin-left: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
 	}
 	.image img {
  		max-width: 100%;
