@@ -509,6 +509,7 @@ footer .four-column {
 		background-color: #F9E5EF;
 		padding: 8em 8%;
 		height: 315px;
+		overflow: hidden;
 	}
 	.casestudies img {
 		width: 100%;
