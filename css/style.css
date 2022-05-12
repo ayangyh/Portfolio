@@ -259,6 +259,10 @@ footer .four-column {
 		font-weight: 700;
 		text-decoration: none;
 	}
+	#case3 .image {
+		height: 185px;
+		overflow: hidden;
+	}
 	.about-hero .container {
 		width: auto;
 	}
@@ -830,6 +834,7 @@ footer .four-column {
 	.casestudies .image {
 		position: relative;
 		overflow: hidden;
+		height: 0;
 	}
 	.casestudies .description {
 		text-align: left;
@@ -837,6 +842,10 @@ footer .four-column {
 		display: flex;
 		flex-direction: column;
 		justify-content: end;
+	}
+	.casestudies .image, #case3 .image {
+		height: 650px;
+		overflow: hidden;
 	}
 	.image img {
  		max-width: 100%;
