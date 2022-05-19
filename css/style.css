@@ -981,15 +981,18 @@ footer .four-column {
 		float: left;
 		width: 68%;
 		display: flex;
+		align-items: center;
+		height: 650px;
+	}
+	.hero .cs3 .left {
 		align-items: flex-end;
-		height: 700px;
 	}
 	.hero .right {
 		float: right;
 		width: 27%;
 		display: flex;
 		align-items: center;
-		height: 700px;
+		height: 650px;
 	}
 	.hero img {
 		width: 100%;
