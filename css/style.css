@@ -266,6 +266,9 @@ footer .four-column {
 	.about-hero .container {
 		width: auto;
 	}
+	.row-about {
+		padding: 60px 0;
+	}
 /*	.about-hero {
 		background-image: url("../images/about-ay.jpg");
 		background-color: rgba(0, 0, 0, 0.25);
@@ -278,16 +281,26 @@ footer .four-column {
 	}*/
 	.about-heading h1 {
 		color: #000;
-		font-size: 2.8em;
+		font-size: 2em;
+		line-height: 1.4em;
 		margin-top: 0;
 		padding-top: .5em;
 		/*padding-bottom: 1em;*/
 		/*position: absolute;*/
 		/*transform: translate(-50%, 50%);*/
 	}
-	.about-body p {
+	.about-body {
+		padding-bottom: 48px;
+	}
+	.about-body p, ul {
 		font-family: freight-text-pro, serif;
 		line-height: 1.8em
+	}
+	.about h3 {
+		font-weight: 700;
+	}
+	.about ul {
+		padding-left: 30px;
 	}
 	.contact .container {
 		width: 90%;
@@ -924,6 +937,9 @@ footer .four-column {
 		padding-left: 10%;
 		float: right;
 		padding-top: 2em;
+	}
+	.about-body {
+		padding-bottom: 30px;
 	}
 	.about-body p {
 		font-family: freight-text-pro, serif;
