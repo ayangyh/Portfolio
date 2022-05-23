@@ -302,6 +302,9 @@ footer .four-column {
 	.about ul {
 		padding-left: 30px;
 	}
+	.about-hero img {
+		width: 100%;
+	}
 	.contact .container {
 		width: 90%;
 		padding: 3em 0;
