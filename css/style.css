@@ -73,7 +73,7 @@ p {
 }
 .casestudy p, ul {
 	font-size: 18px;
-	font-family: georgia, serif;
+	/* font-family: georgia, serif; */
 	line-height: 1.8em
 }
 
@@ -293,7 +293,7 @@ footer .four-column {
 		padding-bottom: 48px;
 	}
 	.about-body p, ul {
-		font-family: freight-text-pro, serif;
+		/* font-family: freight-text-pro, serif; */
 		line-height: 1.8em
 	}
 	.about h3 {
