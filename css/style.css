@@ -1006,6 +1006,9 @@ footer .four-column {
 	.hero .cs3 .left {
 		align-items: flex-end;
 	}
+	.hero .cs4 .left {
+		align-items: flex-end;
+	}
 	.hero .right {
 		float: right;
 		width: 27%;
