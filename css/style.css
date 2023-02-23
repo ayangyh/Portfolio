@@ -324,7 +324,7 @@ footer .four-column {
 		font-size: 2.8em;
 		margin-top: 0;
 		padding-bottom: .75em;
-		text-decoration: : 1px solid #00DCF7; ;
+		text-decoration: 1px solid #00DCF7; ;
 	}
 	.contact-body {
 		padding-bottom: 2em;
@@ -473,7 +473,7 @@ footer .four-column {
 		background-color: #F9E5EF;
 		padding: 16px 0 16px 0;
 	} 
-	.case-main .hero .cs4 {
+	.hero .cs4 {
 		background-color: #EEEFC1;
 		padding: 16px 0 16px 0;
 	} 
@@ -624,7 +624,7 @@ footer .four-column {
 		font-size: 2.8em;
 		margin-top: 0;
 		padding-bottom: .75em;
-		text-decoration: : 1px solid #00DCF7; ;
+		text-decoration: 1px solid #00DCF7; ;
 	}
 	.contact-body {
 		padding-bottom: 3em;
@@ -1079,7 +1079,7 @@ footer .four-column {
 	.case-description span > p {
 		color: #7A7A7A;
 		font-size: 1.1em;
-		line-height: 1.5em
+		line-height: 1.5em;
 		margin-top: 0;
 		padding-top: .25em;
 /*		padding-left: 4.85em;*/
@@ -1215,53 +1215,6 @@ footer .four-column {
 	} 
 }
 
-
-
-
-/* LAPTOPS & DESKTOPS */
-/*@media (min-width: 1200px) {
-	.container {
-		width: 80%;
-	}
-	.fourteen-column {
-		width: 90%
-	}
-	nav .left {
-		width: 50%;
-		padding: 0 0;
-	}
-	nav .right {
-		width: 50%;
-		padding: 0 0;
-	}*/
-/*	footer .right p {
-		padding-right: 0;
-	}*/
-/*	main .one-half {
-		width: 30%;
-		padding-bottom: 290px;
-		margin-top: 0;
-		margin-bottom: 12em;
-	}
-	main h2 {
-		margin-top: 0;
-		margin-bottom: 0;
-		padding-top: 4em;
-		padding-bottom: .5em;
-	}
-	main p {
-		margin-top: 0;
-		margin-bottom: 0;
-		padding-top: .5em;
-		padding-bottom: 4.5em;
-	}
-	main h5 {
-		margin-top: 0;
-		margin-bottom: 0;
-		padding-top:4.5em;
-		padding-bottom: 7em;
-	}*/
-}
 
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 1440px) {
