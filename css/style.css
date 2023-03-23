@@ -1225,7 +1225,7 @@ footer .four-column {
 		width: 90%
 	}
 	nav .left {
-		width: 50%;
+		/* width: 50%; */
 		padding: 0 0;
 	}
 	nav .right {
