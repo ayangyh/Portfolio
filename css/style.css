@@ -486,6 +486,13 @@ footer .four-column {
 		background-color: #EEEFC1;
 		padding: 16px 0 16px 0;
 	} 
+	.casestudy .cs-caption p {
+		color: #A2A2A2;
+		font-family: proxima-nova, sans-serif;
+		font-size: 1em;
+		line-height: 1.5em;
+		text-align: center;
+	}
 }
 
 /* TABLETS */
@@ -827,6 +834,13 @@ footer .four-column {
 		background-color: #EEEFC1;
 		padding: 32px 0 32px 0;
 	} 
+	.casestudy .cs-caption p {
+		color: #A2A2A2;
+		font-family: proxima-nova, sans-serif;
+		font-size: 1em;
+		line-height: 1.5em;
+		text-align: center;
+	}
 }
 
 /* LAPTOPS & DESKTOPS */
@@ -1196,7 +1210,6 @@ footer .four-column {
 		font-family: proxima-nova, sans-serif;
 		font-size: 1em;
 		line-height: 1.5em;
-/*		padding-top: .5em;*/
 		text-align: center;
 	}
 
