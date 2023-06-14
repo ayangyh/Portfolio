@@ -1124,6 +1124,7 @@ footer .four-column {
 		margin: 0;
 		text-align: center;
 	}
+	
 	.casestudy .four-column {
 		display: inline-block;
 		padding: 0 .5em;
@@ -1209,7 +1210,10 @@ footer .four-column {
 	.hero .cs4 {
 		background-color: #EEEFC1;
 		padding: 0;
-	} 
+	}
+	img {
+		width: 100%;
+	}
 }
 
 
