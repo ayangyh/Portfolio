@@ -60,6 +60,16 @@ h4 {
 h5 {
 	font-size: 16px;
 }
+
+eyebrow {
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.03125em;
+	text-transform: uppercase;
+	color: #5B6E71;
+}
+
+
 p {
 	font-size: 18px;
 	line-height: 20px;
@@ -701,6 +711,7 @@ footer .four-column {
 		padding: 1em 0;
 	}
 	.navbar ul li a {
+		letter-spacing: 0.03125em;
 		color: #000000;
 		text-decoration: none;
 	}
