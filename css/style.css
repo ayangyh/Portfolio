@@ -240,6 +240,10 @@ footer .four-column {
 		background-color: #F9E5EF;
 		margin-bottom: 2em;
 	}
+	.casestudies .case-four {
+		background-color: #E3F5FF;
+		margin-bottom: 2em;
+	}
 	.casestudies img {
 		width: 100%;
 	}
@@ -402,21 +406,21 @@ footer .four-column {
 		padding-top: 1em;
 		padding-bottom: .5em;
 	}
-	.case-description h3 {
-		color: #7A7A7A;
-		font-size: .9em;
-		font-weight: 700;
-		text-transform: uppercase;
-		padding-top: 1em;
-	}
 	.case-description  span > p {
-		color: #7A7A7A;
-		/* text-transform: uppercase; */
+		color: #5B6E71;
 		font-size: .9em;
 	}
 	.case-description p {
 		line-height: 1.2em;
 		padding: .5em 0;
+	}
+	.coming-soon {
+		font-weight: 600;
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #5B6E71;
+		padding: 12px 12px;
+		width: fit-content;
 	}
 	.casestudy h3 {
 		font-weight: 700;
@@ -483,6 +487,10 @@ footer .four-column {
 		padding: 16px 0 16px 0;
 	} 
 	.hero .cs4 {
+		background-color: #E3F5FF;
+		padding: 16px 0 16px 0;
+	} 
+	.hero .cs5 {
 		background-color: #EEEFC1;
 		padding: 16px 0 16px 0;
 	} 
@@ -549,6 +557,10 @@ footer .four-column {
 		background-color: #FFFFFF;
 		margin-bottom: 5em;
 	}
+	.casestudies .case-four {
+		background-color: #FFFFFF;
+		margin-bottom: 5em;
+	}
 	.casestudies .case-one .image {
 		background-color: #EDEEF6;
 		padding: 8em 8%;
@@ -562,6 +574,10 @@ footer .four-column {
 		padding: 8em 8%;
 		height: 315px;
 		overflow: hidden;
+	}
+	.casestudies .case-four .image {
+		background-color: #E3F5FF;
+		padding: 8em 8%;
 	}
 	.casestudies img {
 		width: 100%;
@@ -831,6 +847,10 @@ footer .four-column {
 		padding: 32px 0 32px 0;
 	} 
 	.hero .cs4 {
+		background-color: #E3F5FF;
+		padding: 32px 0 32px 0;
+	} 
+	.hero .cs5 {
 		background-color: #EEEFC1;
 		padding: 32px 0 32px 0;
 	} 
@@ -875,6 +895,10 @@ footer .four-column {
 		display: flex;
 	}
 	.case-three {
+		list-style-type: none;
+		display: flex;
+	}
+	.case-four {
 		list-style-type: none;
 		display: flex;
 	}
@@ -971,6 +995,9 @@ footer .four-column {
 		font-weight: 700;
 		text-decoration: none;
 	}
+	.casestudies coming-soon {
+
+	}
 	.casestudies .case-three .image {
 		height: 635px;
 	}
@@ -1025,12 +1052,12 @@ footer .four-column {
 		/*height: 70vh;*/
 	}
 	.hero .cs4 {
-		background-color: #EEEFC1;
+		background-color: #E3F5FF;
 		background-size: cover;
 		/*height: 70vh;*/
 	}
 	.hero .cs5 {
-		background-color: #FCEBE3;
+		background-color: #EEEFC1;
 		background-size: cover;
 		/*height: 70vh;*/
 	}
@@ -1061,6 +1088,9 @@ footer .four-column {
 		align-items: flex-end;
 	}
 	.hero .cs4 .left {
+		align-items: flex-end;
+	}
+	.hero .cs5 .left {
 		align-items: flex-end;
 	}
 	.hero .right {
@@ -1099,7 +1129,7 @@ footer .four-column {
 		letter-spacing: .5px;
 	}
 	.case-description span > p {
-		color: #7A7A7A;
+		color: #5B6E71;
 		font-size: 1.1em;
 		line-height: 1.5em;
 		margin-top: 0;
@@ -1232,6 +1262,10 @@ footer .four-column {
 		padding: 0;
 	} 
 	.hero .cs4 {
+		background-color: #E3F5FF;
+		padding: 0;
+	}
+	.hero .cs5 {
 		background-color: #EEEFC1;
 		padding: 0;
 	}
