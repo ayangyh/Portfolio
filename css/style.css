@@ -303,13 +303,23 @@ footer .four-column {
 		/*position: absolute;*/
 		/*transform: translate(-50%, 50%);*/
 	}
+	.about-heading h2 {
+		margin-top: 1em;
+	}
 	.about-body {
 		padding-bottom: 48px;
 	}
-	.about-body p, ul {
+	.about-body ul {
 		/* font-family: freight-text-pro, serif; */
 		line-height: 1.8em
 	}
+	.about-body > p {
+		/*		width: 65%;*/
+				/*font-size: .85em;*/
+				line-height: 1.8em;
+				margin-bottom: 0.8em;
+				/*padding-bottom: 1em;*/
+			}
 	.about h3 {
 		font-weight: 700;
 	}
@@ -631,6 +641,7 @@ footer .four-column {
 		/*position: absolute;*/
 		/*transform: translate(-50%, 50%);*/
 	}
+
 	.about-endhead h1 {
 		color: #000;
 		font-size: 2em;
@@ -1047,11 +1058,11 @@ footer .four-column {
 	.about-body {
 		padding-bottom: 30px;
 	}
-	.about-body p {
-		font-family: freight-text-pro, serif;
+	.about-body > p {
 /*		width: 65%;*/
 		/*font-size: .85em;*/
 		line-height: 1.8em;
+		margin-bottom: 0.8em;
 		/*padding-bottom: 1em;*/
 	}
 	.contact-temp {
