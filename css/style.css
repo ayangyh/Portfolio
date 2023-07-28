@@ -1350,3 +1350,6 @@ mark {
 	background-color: #F9E5EF;
 	/* display: block; */
 }
+.intro-topper {
+	padding: 64px 0;
+}
