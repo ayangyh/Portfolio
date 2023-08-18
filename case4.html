@@ -19,6 +19,7 @@
 	<meta property="og:image" content="http://www.angelayang.design/images/dp-friday-hero-3.png" />
 
 </head>
+
 <body>
     <header class="header-background">
         <nav class="container fourteen-column">
@@ -35,7 +36,10 @@
         </nav>
     </header>
 
-<main role="case-main">
+    <input type="password" placeholder="passcode" id="input">
+    <button onclick="protectpasscode()" id="hide">CHECK</button>
+
+<main role="case-main" id="show">
    <!-- Case -->
    <section class="hero">
    <div class="cs4">
@@ -163,6 +167,21 @@
      ga('send', 'pageview');
 
    </script>
+
+    <script>
+    function protectpasscode() {
+        var a = document.getElementById('input');
+        var b = document.getElementById('show');
+        var c = document.getElementById('hide');
+        if (a.value === '54') {
+            b.style.display = 'block';
+            c.style.display = 'none';
+            a.style.display = 'none';
+        } else {
+            b.style.display = 'none';
+        }
+    }
+    </script>
 
 </body>
 </html>

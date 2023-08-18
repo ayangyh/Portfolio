@@ -1,3 +1,15 @@
+#show {
+	display: none;
+}
+#input, #hide {
+	margin: 30vh auto 20px auto;
+	width: 320px;
+	display: block;
+}
+#hide {
+	margin: 0 auto 300px auto;
+	border-radius: 80px;
+}
 a.underline:hover {
 	border-bottom: 2px solid #00DCF7;
 }
