@@ -399,7 +399,7 @@ footer .four-column {
 		margin-bottom: 1em;
 	}
 	.casestudy .eight-column {
-		margin-bottom: 0;
+		margin: 2em 0;
 	}
 	.casestudy h3 {
 		margin-top: .5em;
@@ -411,7 +411,7 @@ footer .four-column {
 		text-decoration: none;
 	}
 	.casestudy .row {
-		margin: 2em 0;
+		margin: 3em 0;
 	}
 	.hero .cs1 {
 		/* background-color: #EDEEF6; */
