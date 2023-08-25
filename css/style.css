@@ -84,7 +84,7 @@ eyebrow {
 
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 20px;
 	font-weight: normal;
 	-webkit-margin-before: 0;
@@ -95,7 +95,7 @@ p {
     background: #00DCF7;
 }
 .casestudy p, ul {
-	font-size: 18px;
+	font-size: 16px;
 	/* font-family: georgia, serif; */
 	line-height: 1.8em
 }
@@ -204,6 +204,14 @@ footer .four-column {
 	font-size: 13px;
 	font-weight: 100;
 	color: #BBBBBB;
+}
+.casestudy .cs-intro {
+	margin-bottom: 0;
+}
+.casestudy .ul-intro {
+	font-size: 18px;
+	margin-top: 0;
+	padding-left: 30px;
 }
 /* MEDIA QUERIES */
 /* MOBILES */
@@ -532,6 +540,9 @@ footer .four-column {
 	.intro-topper .super-big {
 		font-size: 2.5em;
 		padding-bottom: .5em;
+	}
+	.casestudy p, ul {
+		font-size: 16px;
 	}
 }
 
@@ -1265,6 +1276,7 @@ footer .four-column {
 	}
 	.casestudy p {
 		margin-bottom: 0.8em;
+		font-size: 18px;
 	}
 /*	.case-heading span {
 	    display: block;
@@ -1363,7 +1375,7 @@ footer .four-column {
 		font-size: 3.5em;
 		padding-bottom: .5em;
 	}
-}
+
 .casestudy ul {
     padding-left: 30px;
 }
@@ -1375,4 +1387,8 @@ footer .four-column {
 mark {
 	background-color: #F9E5EF;
 	/* display: block; */
+}
+.casestudy p {
+	font-size: 100px;
+}
 }
