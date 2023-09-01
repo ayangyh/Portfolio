@@ -213,6 +213,15 @@ footer .four-column {
 	margin-top: 0;
 	padding-left: 30px;
 }
+.casestudy .ul-subhead {
+	color:#5B6E71;
+	margin-bottom: 0;
+}
+.casestudy .ul-body {
+	font-size: 18px;
+	margin-top: 0;
+	padding-left: 30px;
+}
 /* MEDIA QUERIES */
 /* MOBILES */
 @media (min-width: 320px) {
@@ -407,7 +416,7 @@ footer .four-column {
 		margin-bottom: 1em;
 	}
 	.casestudy .eight-column {
-		margin: 2em 0;
+		padding: 0.5em 0;
 	}
 	.casestudy h3 {
 		margin-top: .5em;
@@ -542,7 +551,7 @@ footer .four-column {
 		padding-bottom: .5em;
 	}
 	.casestudy p, ul {
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
@@ -1242,6 +1251,7 @@ footer .four-column {
 	.casestudy .eight-column {
 		display: inline-block;
 		margin: 0 15%;
+		padding: 1em 0;
 	}
 	.case-image .eight-column {
 		margin: 0;
