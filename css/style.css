@@ -553,6 +553,10 @@ footer .four-column {
 	.casestudy p, ul {
 		font-size: 18px;
 	}
+	#key-results h3 {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
 }
 
 /* TABLETS */
