@@ -4,7 +4,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="UTF-8">
-   <title>ANGELA YANG | DailyPay</title>
+   <title>ANGELA YANG | DailyPay Self-Service</title>
 
    <!-- Typekit Fonts -->
    <script src="https://use.typekit.net/zua1vai.js"></script>
@@ -14,7 +14,12 @@
    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <meta property="og:title" content="DailyPay Self-Service Pilot" />
+	<meta property="og:description" content="A web experience delivering an automated path to DailyPay’s earned wage access." />
+	<meta property="og:image" content="" />
+
 </head>
+
 <body>
     <header class="header-background">
         <nav class="container fourteen-column">
@@ -31,18 +36,21 @@
         </nav>
     </header>
 
-<main role="case-main">
+    <input type="password" placeholder="passcode" id="input">
+    <button onclick="protectpasscode()" id="hide">CHECK</button>
+
+<main role="case-main" id="show">
    <!-- Case -->
    <section class="hero">
-   <div class="cs4">
+   <div class="cs5">
        <div class="container">
-           <div class="case-hero left eight-column"><img src="images/dp-contact-hero-02.png" alt="Case Study: DailyPay Contact Page"/>
+           <div class="case-hero left eight-column"><img src="images/dp-self-service-main.png" alt="Case Study: DailyPay Self-Service Pilot"/>
            </div>
            <div class="case-description right four-column">
                <div>
-               <h1>DailyPay Contact Page</h1>
-               <!-- <p>DailyPay is a technology-driven financial company defining new rules on the way money moves between employers and employees.</p> -->
-               <eyebrow>Role</eyebrow>
+               <h1>Automating DailyPay</h1>
+               <p>Designing for the launch of DailyPay’s self-service product.</p>
+               <p class="eyebrow">Role</p>
                <span><p>Product Design Generalist</p></span>
             </div>
            </div>
@@ -56,6 +64,7 @@
                <ul>
                    <!-- <li><a href="#overview" class="underline">Overview</a></li>
                    <li><a href="#problem" class="underline">The Problem</a></li> -->
+                   <li><a href="#challenges" class="underline">Challenges</a></li>
                    <li><a href="#key-results" class="underline">Key Results</a></li>
                    <li><a href="#takeaways" class="underline">Takeaways</a></li>
                    <li><a href="#next-steps" class="underline">Next Steps</a></li>
@@ -69,43 +78,69 @@
            <div class="row" id="overview">
                <div class="case-body eight-column">
                    <h2>Overview</h2>
-                   <p>Our Contact page has not changed since an external agency redesigned the page using an MVP approach. We were tasked to modernize the page while improving the navigational cues for the different types of visitors seeking the support they need.</p>
-                   <p>Goals that guided the process:</p>
-                   <ul>
-                       <li>Reduce the number of users who are filling out the lead generation form by accident</li>
-                       <li>Help our general group of website visitors to better self-select and get to the appropriate support funnel</li>
-                   </ul>
+                   <p>The labor market has seen challenges in competing for hourly workers in businesses of all sizes. DailyPay offers an earned wage access solution as a benefit for employees of larger corporations, but it’s the companies with fewer employees that lack the resources who find themselves at a disadvantage. As part of this initiative, we began to launch the self-service portal — a web experience designed to lay the path to the sign up flow by educating product value, illustrating ease of implementation and employee benefits.</p>
+                   <p>The self-service model may be new to DailyPay, but most of us have interacted with the e-commerce concept in one form or another.</p>
+                   <h3>How might we bring awareness of the full product offerings in a swift checkout manner?</h3>
                 </div>
-           </div>
-           <div class="row" id="challenges">
-               <div class="case-body eight-column">
-                   <h2>Challenges</h2>
-                   <p><b>A clear path for evolution —</b> Through initial stakeholder interviews and competitor research, it was established that the page needed to define user-specific methods of communication so the users could get the support they need. 
-
-                    This was largely based on the fact that the users are introduced to the page with a sales demo form that overtook the entire page. There were confusions around the call-to-action for account support as it was not well-defined. 
-                    </p>
-                    <p>Our solution was to have a bifurcator as a first step, so that users could identify the call-to-actions based on their needs. We explored the different ways to evolve the designs for the contact cards from exercising a palette expansion of different opacities to playful treatments that echo the illustrations.</p>
-               </div>
-           </div>
-           <div class="row" id="key results">
-               <div class="case-body eight-column">
-                   <h2>Key Results</h2>
-                   <p>In-depth case study in progress.</p>
-                   <a href="https://www.dailypay.com/contact/" target="_blank">View the website ></a>
-               </div>
-           </div>
-           <div class="row" id="takeaway">
-               <div class="case-body eight-column">
-                   <h2>Takeaways</h2>
-                   <p>In-depth case study in progress.</p>
-               </div>
-           </div>
-
-       </div>
+                <div class="case-body eight-column">
+                    <h2>Workshops to activate team alignment</h2>
+                    <p>Since the first phase of this pilot launch needed a quick turnaround, we grouped discovery and research into a 2-day workshop with the stakeholders and the working team.</p>
+                    <img src="images/dp-friday-research-01.png" alt="Friday Research"/>
+                    <p>While the content, design, and UX patterns were similar across all, they were sparse in displaying any emotional benefits of their product.</p>
+                </div>
+            </div>
+            <div class="row" id="challenges">
+                <div class="case-body eight-column">
+                    <p class="eyebrow">Challenge</p>
+                    <h2>Expanding the brand</h2>
+                    <p>We had access to a lightweight brand guideline. It was started by the Product team in their early stages of app and card design explorations and they were open to any additional concepts we had to expand the branding.</p>
+                    <p>Through some of my initial creative explorations, it was discovered that the two primary colors did not play nice together. While opacity and gradients came in handy to break up the vibrancy of the primaries, it was ultimately the introduction of DailyPay’s secondary color palette that created the depth to pull the two colors together.</p>
+                </div>
+            </div>
+            <div class="row case-image">
+                <div class="cs-img eight-column">
+                    <div class="cs-image four-column">
+                        <img src="images/dp-friday-main-dir2.png" alt="Friday Creative Exploration Blue Gradient"/>
+                    </div>
+                    <div class="cs-image four-column">
+                        <img src="images/dp-friday-main-dir3.png" alt="Friday Creative Exploration Light Opacity"/>
+                    </div>
+                </div>
+                    <div class="cs-caption two-column">
+                            <p>Heavy application of the blue was not favorite in our rounds of reviews <i>(left)</i>; it echoed too much of a traditional bank. Due to some legibility issues, the blazing orange had to be used sparingly as accents or lean on it’s alternate lower opacity version <i>(right)</i>.</p>
+                    </div>
+            </div>
+            <div class="row" id="challenges">
+                <div class="case-body eight-column">
+                    <p class="eyebrow">Challenge</p>
+                    <h2>Striking the right balance</h2>
+                    <p>In a heavily regulated space, one of the challenges was to meet the requirements of our internal legal team and financial service partner. Disclosures were requested to be readily accessible in reference to their respective content. After a few rounds of legal reviews, the legal agreement lengths outgrew the content and it began to sacrifice the design which made an impact to the experience.</p>
+                    <p>To address the requirements while keeping our users happy, my recommended solution was to add hyperlinks to the superscripts — this kept the small copy light and directed the user straight to the text of the agreement.</p>
+                </div>
+            </div>
+            <div class="row case-image">
+                <div class="cs-img eight-column">
+                        <img src="images/dp-friday-superscript.png" alt="Friday Superscript Close-up"/>
+                    <div class="cs-caption two-column">
+                            <p>The blue hyperlinked superscripts are anchored to the global footer where the disclosures and disclaimers live.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="key-results">
+                <div class="case-body eight-column">
+                    <h2>Key Results</h2>
+                    <p>About six months after the launch of Friday to the general public, the results have been trending to exceed our expectations.</p>
+                    <h3>Enabled access to Friday for <mark>1 million eligible employees</mark></h3>
+                    <h3>Friday Card has been activated by <mark>63% of registered users</mark></h3>
+                    <h3>Since the closed pilot launch, the registration conversion has seen a <mark>30% boost</mark></h3>
+                    <a href="https://friday.dailypay.com/employee/" target="_blank">View the website ></a>
+                </div>
+            </div>
+        </div>
    </section>
 </main>
 
-    <!-- Footer -->
+<!-- Footer -->
 <footer>
     <section class="container fourteen-column">
         <div class="casefoot">
@@ -145,6 +180,21 @@
      ga('send', 'pageview');
 
    </script>
+
+    <script>
+    function protectpasscode() {
+        var a = document.getElementById('input');
+        var b = document.getElementById('show');
+        var c = document.getElementById('hide');
+        if (a.value === '54') {
+            b.style.display = 'block';
+            c.style.display = 'none';
+            a.style.display = 'none';
+        } else {
+            b.style.display = 'none';
+        }
+    }
+    </script>
 
 </body>
 </html>
