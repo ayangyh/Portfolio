@@ -1363,6 +1363,19 @@ footer .four-column {
 		color: #5B6E71;
 		padding: 24px;
 	} */
+	.casestudy .callout {
+		border-top: 4px solid #CDCDCD;
+		border-bottom: 4px solid #CDCDCD;
+		padding: 40px;
+		margin-top: 48px;
+		margin-bottom: 48px;
+	}
+	.casestudy .super-big {
+		font-weight: 400;
+		font-style: italic;
+		font-size: 32px;
+		line-height: 48px;
+	}
 }
 
 
@@ -1390,19 +1403,20 @@ footer .four-column {
 		padding-bottom: .5em;
 	}
 
-.casestudy ul {
-    padding-left: 30px;
-}
+	.casestudy ul {
+		padding-left: 30px;
+	}
 
-.header-background ul {
-	font-family: proxima-nova, sans-serif;
-}
+	.header-background ul {
+		font-family: proxima-nova, sans-serif;
+	}
 
-mark {
-	/* background-color: #F9E5EF; */
-	/* display: block; */
-}
-.casestudy p {
-	font-size: 20px;
-}
+	mark {
+		/* background-color: #F9E5EF; */
+		/* display: block; */
+	}
+	.casestudy p {
+		font-size: 20px;
+	}
+
 }
