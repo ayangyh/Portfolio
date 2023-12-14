@@ -41,10 +41,11 @@ html, body {
 }
 body {
 	font-family: proxima-nova, sans-serif;
-	color: #000000;
+	color: #455F4B;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: proxima-nova, sans-serif;
+	font-family: oswald, sans-serif;
+	color:#23442B;
 }
 h1 {
 	font-size: 32px;
