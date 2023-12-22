@@ -1,3 +1,10 @@
+<!-- Fonts -->
+@import url("https://use.typekit.net/cew5exu.css");
+
+font-family: "oswald", sans-serif;
+font-weight: 400;
+font-style: normal;
+
 #show {
 	display: none;
 }
@@ -40,11 +47,11 @@ html, body {
 	overflow-x: hidden;
 }
 body {
-	font-family: proxima-nova, sans-serif;
+	font-family: "proxima-nova", sans-serif;
 	color: #455F4B;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: oswald, sans-serif;
+	font-family: "oswald", sans-serif;
 	color:#23442B;
 }
 h1 {
@@ -223,6 +230,13 @@ footer .four-column {
 	margin-top: 0;
 	padding-left: 30px;
 }
+
+div .cs-img {
+	display: block;
+}
+
+
+
 /* MEDIA QUERIES */
 /* MOBILES */
 @media (min-width: 320px) {
@@ -300,7 +314,7 @@ footer .four-column {
 	}
 	.casestudies a {
 		color: #000000;
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: 1em;
 		font-weight: 700;
 		text-decoration: none;
@@ -1418,6 +1432,12 @@ footer .four-column {
 	}
 	.casestudy p {
 		font-size: 20px;
+	}
+	
+	.cs5 .eight-column {
+		display: flex;
+		align-items: center;
+
 	}
 
 }
