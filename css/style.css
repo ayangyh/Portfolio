@@ -403,7 +403,7 @@ div .cs-img {
 		width: auto;
 	}
 	input, textarea {
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		border-bottom: 1px solid #000;
 		margin-bottom: 0.75em;
 		padding: 0.9em;
@@ -416,7 +416,7 @@ div .cs-img {
 		border-left-style: none;		
 	}
 	button {
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		border: 3px solid #000;
@@ -553,7 +553,7 @@ div .cs-img {
 	} 
 	.casestudy .cs-caption p {
 		color: #A2A2A2;
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: 1em;
 		line-height: 1.5em;
 		text-align: center;
@@ -746,7 +746,7 @@ div .cs-img {
 		width: auto;
 	}
 	input, textarea {
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		border-bottom: 1px solid #000;
 		margin-bottom: 0.75em;
 		padding: 0.9em;
@@ -805,7 +805,7 @@ div .cs-img {
 		/*width: 100%;*/
 	}
 	.navbar ul li {
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: .8em;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -871,7 +871,7 @@ div .cs-img {
 	}
 	.footer a {
 		color: #000000;
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: .85em;
 		font-weight: 700;
 		text-decoration: none; 
@@ -937,7 +937,7 @@ div .cs-img {
 	} 
 	.casestudy .cs-caption p {
 		color: #A2A2A2;
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: 1em;
 		line-height: 1.5em;
 		text-align: center;
@@ -1086,7 +1086,7 @@ div .cs-img {
 	}
 	.casestudies a {
 		color: #000000;
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: 1em;
 		font-weight: 700;
 		text-decoration: none;
@@ -1246,7 +1246,7 @@ div .cs-img {
 		/*width: 100%;*/
 	}
 	.navbar ul li {
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: .8em;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -1335,7 +1335,7 @@ div .cs-img {
 	}
 	.casestudy .cs-caption p {
 		color: #A2A2A2;
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 		font-size: 1em;
 		line-height: 1.5em;
 		text-align: center;
@@ -1423,7 +1423,7 @@ div .cs-img {
 	}
 
 	.header-background ul {
-		font-family: proxima-nova, sans-serif;
+		font-family: "proxima-nova", sans-serif;
 	}
 
 	mark {
