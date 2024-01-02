@@ -1283,6 +1283,7 @@ div .cs-img {
 		display: inline-block;
 		padding: 0 .5em;
 		width: 49%;
+		text-align: left;
 	}
 	.casestudy .three-column {
 		display: inline-block;
