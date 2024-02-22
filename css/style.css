@@ -32,7 +32,7 @@ a.underline:visited {
 	border-bottom: 2px solid #00DCF7;
 }
 .underline-head {
-	border-bottom: 2px solid #00DCF7;	
+	/* border-bottom: 2px solid #00DCF7;	 */
 }
 .about .separate {
 	text-align: center;
@@ -447,7 +447,7 @@ div .cs-img {
 		margin-bottom: .5em;
 	}
 	.casestudy a {
-		color: #00DCF7;
+		color: #23442B;
 		font-weight: 700;
 		text-decoration: none;
 	}
@@ -1021,7 +1021,7 @@ div .cs-img {
 	.casestudies .right   {
 		float: right;
 		width: 26%;
-		border-top: 5px solid #000;
+		border-top: 5px solid #23442B;
 	}
 	* {
 		-moz-box-sizing: border-box;
@@ -1094,7 +1094,7 @@ div .cs-img {
 		/* padding: 1em 0 3em; */
 	}
 	.casestudies a {
-		color: #000000;
+		color: #23442B;
 		font-family: "proxima-nova", sans-serif;
 		font-size: 1em;
 		font-weight: 700;
@@ -1110,7 +1110,7 @@ div .cs-img {
 		width: 100%;
 	}
 	.about-heading h1 {
-		color: #000;
+		color: #23442B;
 		font-size: 2.8em;
 		margin-top: 0;
 		/*padding-top: 2em;*/
