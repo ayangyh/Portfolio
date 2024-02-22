@@ -1,11 +1,11 @@
 <!-- Fonts -->
 @import url("https://use.typekit.net/cew5exu.css");
 
-* {
+/* * {
 	font-family: "oswald", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-}
+} */
 
 #show {
 	display: none;
@@ -53,7 +53,8 @@ body {
 	color: #455F4B;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: "oswald", sans-serif;
+	font-family: "proxima-nova", sans-serif;
+	/* font-family: "oswald", sans-serif; */
 	color:#23442B;
 }
 h1 {
