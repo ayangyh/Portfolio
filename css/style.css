@@ -452,7 +452,7 @@ div .cs-img {
 		text-decoration: none;
 	}
 	.casestudy .row {
-		margin: 3em 0;
+		/* margin: 3em 0; */
 	}
 	.hero .cs1 {
 		/* background-color: #EDEEF6; */
@@ -1279,7 +1279,7 @@ div .cs-img {
 	.casestudy .eight-column {
 		display: inline-block;
 		margin: 0 15%;
-		padding: 1em 0;
+		padding: 1.5em 0;
 	}
 	.case-image .eight-column {
 		margin: 0;
@@ -1298,7 +1298,7 @@ div .cs-img {
 		width: 33%;
 	}
 	.casestudy .row {
-		margin: 4em 0;
+		/* margin: 4em 0; */
 		/* display: inline-block; */
 	}
 	.casestudy .case-heading {
@@ -1307,10 +1307,10 @@ div .cs-img {
 		/*width: 10%;*/
 	}
 	.casestudy h3 {
-		margin: .5em 0;
+		margin-top: 2em;
+		margin-bottom: .5em;
 	}
 	.casestudy h2 {
-		margin-top: .25em;
 		margin-bottom: .5em;
 	}
 	.casestudy p {
@@ -1390,21 +1390,30 @@ div .cs-img {
 		padding: 24px;
 	} */
 	.casestudy .callout {
-		border-top: 4px solid #CDCDCD;
-		border-bottom: 4px solid #CDCDCD;
+		border-top: 1px solid #CDCDCD;
+		border-bottom: 1px solid #CDCDCD;
 		padding: 40px;
 		margin-top: 48px;
 		margin-bottom: 48px;
 	}
 	.casestudy .super-big {
 		font-weight: 400;
-		font-style: italic;
 		font-size: 32px;
 		line-height: 48px;
 	}
 	.casestudy .four-column .case-body {
 		margin: 64px  0 64px 0;
 		padding: 0 20px  0 20px;
+	}
+	.no-bullets {
+		list-style-type: none;
+	}
+	.item-icon-copy {
+		display: flex;
+	}
+	.fa-solid .fa-circle-xmark {
+		padding-top: 8px;
+    	padding-right: 12px;
 	}
 }
 
