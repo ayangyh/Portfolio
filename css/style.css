@@ -237,6 +237,7 @@ footer .four-column {
 .casestudy .ul-body {
 	font-size: 20px;
 	margin-top: 0;
+	margin-bottom: 1em;
 	padding-left: 30px;
 }
 
@@ -251,6 +252,11 @@ div .cs-img {
 i.fa-solid {
 	line-height: 1.8em;
 	margin-right: 0.8em;
+}
+
+.case-desc-label {
+	border-top: 1px solid #455F4B;
+	margin-top: 2em;
 }
 
 /* MEDIA QUERIES */
@@ -1414,7 +1420,7 @@ i.fa-solid {
 		margin: 64px  0 64px 0;
 		padding: 0 20px  0 20px;
 	}
-	.item-icon-copy {
+	.icon-item {
 		display: flex;
 	}
 
