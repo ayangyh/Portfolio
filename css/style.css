@@ -244,7 +244,14 @@ div .cs-img {
 	display: block;
 }
 
+.no-bullets {
+	list-style-type: none;
+}
 
+i.fa-solid {
+	line-height: 1.8em;
+	margin-right: 0.8em;
+}
 
 /* MEDIA QUERIES */
 /* MOBILES */
@@ -1284,6 +1291,8 @@ div .cs-img {
 	.case-image .eight-column {
 		margin: 0;
 		text-align: center;
+		display: flex;
+		align-items: center;
 	}
 	
 	.casestudy .four-column {
@@ -1405,16 +1414,10 @@ div .cs-img {
 		margin: 64px  0 64px 0;
 		padding: 0 20px  0 20px;
 	}
-	.no-bullets {
-		list-style-type: none;
-	}
 	.item-icon-copy {
 		display: flex;
 	}
-	.fa-solid .fa-circle-xmark {
-		padding-top: 8px;
-    	padding-right: 12px;
-	}
+
 }
 
 
@@ -1443,7 +1446,7 @@ div .cs-img {
 	}
 
 	.casestudy ul {
-		padding-left: 30px;
+		/* padding-left: 30px; */
 	}
 
 	.header-background ul {
